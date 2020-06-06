@@ -1,0 +1,30 @@
+---
+node : General
+template : Generic.md
+title : TEXT
+GeneralInfo :
+  Description: >-
+    TEXT
+  Diagram : |
+    ```
+    ```
+Content:
+  -
+    separate: BOOL
+    Subtitle: TEXT
+    Title: TEXT
+    Text: >-
+      TEXT
+    Diagram: |
+      ```
+      ```
+    Table :
+      "# - #" : TEXT
+      Meta : 
+        Columns :
+          - COL1
+          - COL2
+        Rows :
+          -
+            - ROW1COL1
+            - ROW2COL2
