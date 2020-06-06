@@ -44,5 +44,8 @@ nav:
   - Home : index.md
   - General :
     - Timeline : Timeline.md
+  - Missions :
+    - War Games : WarGames.md
   - Categories :
       - General : General.md
+      - Missions : Missions.md

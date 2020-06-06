@@ -1,7 +1,9 @@
 ---
-node : General
+node : Missions
 template : Generic.md
-title : TEXT
+title : War Games (Mission 3)
+altLinks :
+  - War Games
 GeneralInfo :
   Description: >-
     TEXT
