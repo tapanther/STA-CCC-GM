@@ -6,12 +6,12 @@ altLinks :
   - Time Skips
 GeneralInfo :
   Description: >-
-    An experiment gone wrong abord the T'shannaik Stellar Laboratory leads the
-    Endeavour crew to a Vulcan/Andorian border system to render assistance. The
-    Laboratory was conducting a series of high-energy temporal mechanics experiments,
-    which results in the Endeavour crew being thrown forward and backward within
-    their timeline as they try to unravel the station's mysteries and prevent their
-    own demise.
+    An experiment gone wrong abord the Vulcan Science Directorate's T'shannaik
+    Stellar Laboratory leads the Endeavour crew to a Vulcan/Andorian border system to
+    render assistance. The Laboratory was conducting a series of high-energy temporal
+    mechanics experiments, which results in the Endeavour crew being thrown forward
+    and backward within their timeline as they try to unravel the station's mysteries
+    and prevent their own demise.
 
 
     Unbeknownst to the players, their characters are experiencing a sequence of
@@ -90,11 +90,24 @@ Content:
     Text: >-
       As the Endeavour prepares to drop out of warp, the crew feels a sudden lurch
       in their stomachs, as though the grav-plating has suddenly reversed polarity.
+
+      
+      !!! quote "The Shift"
+
+          You feel a sudden lurch in your stomach, as though the grav-plating had
+          suddenly reversed polarity. Your hearing and vision are filled with a
+          maddening superposition of millions of ghostly echoes. It's as if someone
+          had overlaid a thousand takes of a movie scene, all carrying out the same
+          actions and speaking the same words, but each one just slightly out of sync
+          with the rest. As the specters dissipate away, you find yourself disoriented
+          and carrying a profound sense of estrangement.
+
+
       The sensation is momentary but it overwhelms all senses. In an instant, the
-      situation around them has changed completely. Whereas the ship was previously
-      operating under 'All Clear' conditions, the crew find themselves rocked and
-      thrown about their stations as explosions rock an already crippled ship. Tasks
-      from this moment should be taken following combat ordering rules.
+      situation around the players has changed completely. Whereas the ship was
+      previously operating under 'All Clear' conditions, the crew find themselves
+      rocked and thrown about their stations as explosions rock an already crippled
+      ship. Tasks from this moment should be taken following combat ordering rules.
 
 
       A check of the ship's chronometer will reveal that the current time is 8 hours
@@ -115,19 +128,36 @@ Content:
       themselves without any memories prior to dropping out of warp. As far as they
       are concerned the Endeavour was fine one moment and then it wasn't. Captain
       Winchester (NPC) was not among the innoculated, and orders all stations to
-      provide a Status Report unaware of what is going on with the players.
+      provide a Damage Report unaware of what is going on with the players.
+
+
+      !!! quote "Status Report"
+
+          What in the name of hell is going on here! This was supposed to be a rescue
+          operation, we're not equipped to take on that many ships, and certainly not
+          after getting caught with our proverbial pants down. We can't take much
+          more of this. Helm, do your best to make us as small a target as possible.
+          All stations, damage report!
 
 
       Due to the massive amount of missing information, players must perform a
-      Control + Command Task with a Difficulty of 0 in order to perform the Status
-      Report.
+      Control + Command Task with a Difficulty of 0 in order to perform the Damage
+      Report. Any attempt to question the Captain or the rest of the crew is met by
+      a sharp rebuke and a direct order you carry out instructions.
+
+
+      ??? quote "This is not the Time..."
+
+          Save the questions for if we get out of this mess. I gave you an order,
+          I expect you to carry it out or relieve yourself of duty! This is not
+          the time to daudle people!
 
 
       ??? info "Conn Damage Report"
 
           ```
           |-----------------------------------------------------|
-          | UNITED EARTH STARFLEET                              |
+          | EARTH ALLIANCE STARFLEET                            |
           | ENDEAVOUR (NX-06) CONN DAMAGE REPORT                |
           |-----------------------------------------------------|
           | SYSTEM STATUS: CRITICAL                             |
@@ -152,6 +182,7 @@ Content:
           |                                                     |
           | D2 LEAK DECK B FRAMES 4150-4600 SECTIONS 33-40      |
           | FSN REACTOR OUTPUT BELOW OPERATIONAL GUIDELINES     |
+          | WARP REACTOR OFFLINE - SCRAM                        |
           |-----------------------------------------------------|
           ```
 
@@ -160,15 +191,16 @@ Content:
 
           ```
           |-----------------------------------------------------|
-          | UNITED EARTH STARFLEET                              |
+          | EARTH ALLIANCE STARFLEET                            |
           | ENDEAVOUR (NX-06) COMMUNICATIONS DAMAGE REPORT      |
           |-----------------------------------------------------|
-          | SYSTEM STATUS: OK                                   |
+          | SYSTEM STATUS: FAULT DETECTED                       |
           |--------------------+--------------------------------|
           | COMPONENT          | STATUS                         |
           |--------------------+--------------------------------|
           | PRIM. COMM ARRAY   | JAMMING SIGNAL DETECTED        |
           | SECN. COMM ARRAY   | JAMMING SIGNAL DETECTED        |
+          | INTERNAL COMM      | NON-CRITICAL                   |
           | SUBSPACE X-MIT     | OPERATIONAL                    |
           | LASER X-MIT        | OPERATIONAL                    |
           | EHF/THF X-MIT      | NON-CRITICAL                   |
@@ -198,10 +230,18 @@ Content:
 
           ```
           |-----------------------------------------------------|
-          | UNITED EARTH STARFLEET                              |
+          | EARTH ALLIANCE STARFLEET                            |
           | ENDEAVOUR (NX-06) SCIENCE DAMAGE REPORT             |
           |-----------------------------------------------------|
-          | SYSTEM STATUS: CRITICAL                             |
+          | SYSTEM STATUS: INOPERABLE                           |
+          |                                                     |
+          | MULTIPLE CASCADING SYSTEM FAILURES DETECTED         |
+          |                                                     |
+          | PRIMARY SENSOR ARRAY HAS BEEN RENDERED INOPERABLE   |
+          |                                                     |
+          | INSUFFICIENT COMPUTE RESOURCES TO INITIALIZE        |
+          | SECONDARY SYSTEMS - RETRYING...                     |
+          |                                                     |
           |--------------------+--------------------------------|
           | COMPONENT          | STATUS                         |
           |--------------------+--------------------------------|
@@ -244,7 +284,7 @@ Content:
 
           ```
           |-----------------------------------------------------|
-          | UNITED EARTH STARFLEET                              |
+          | EARTH ALLIANCE STARFLEET                            |
           | ENDEAVOUR (NX-06) TACTICAL DAMAGE REPORT            |
           |-----------------------------------------------------|
           | SYSTEM STATUS: CRITICAL                             |
@@ -284,6 +324,7 @@ Content:
           | MACO ANTI-BOARDING PARTIES DEPLOYED TO AIRLOCKS     |
           | CARGO HOLD B CONVERTED TO TRIAGE CENTER             |
           | ARMORY SIDEARMS ISSUED TO ADDITIONAL PERSONNEL      |
+          | WARP REACTOR OFFLINE - SCRAM                        |
           |-----------------------------------------------------|
           ```
 
@@ -292,7 +333,7 @@ Content:
 
           ```
           |-----------------------------------------------------|
-          | UNITED EARTH STARFLEET                              |
+          | EARTH ALLIANCE STARFLEET                            |
           | ENDEAVOUR (NX-06) ENGINEERING DAMAGE REPORT         |
           |-----------------------------------------------------|
           | SYSTEM STATUS: EMERGENCY                            |
@@ -304,8 +345,8 @@ Content:
           | CONTAINMENT FIELD INTEGRITY      : 18%              |
           | MININUM SAFE FIELD INTEGRITY     : 25%              |
           | ANNIHILATION LEAK VELOCITY       :  2.66E20 H / S   |
-          | ANNIHILATION LEAK ACCELERATION   : +1.33E17 H / S2  |
-          | ANNIHILATION LEAK JERK           : +9.97E14 H / S3  |
+          | ANNIHILATION LEAK ACCELERATION   : +1.33E17 H / S^2 |
+          | ANNIHILATION LEAK JERK           : +9.97E14 H / S^3 |
           | ANTIMATTER POD EJECTION SYSTEM   : OFFLINE          |
           |                                                     |
           | CONTAINMENT FAILURE ESTIMATED IN : 0H 1M 40S        |
@@ -353,6 +394,7 @@ Content:
           | FSN REACTOR OUTPUT BELOW OPERATIONAL GUIDELINES     |
           | DCC PARTIES REPORTING MASSIVE SYSTEM FAILURES       |
           | MULTIPLE ODN NETWORK FAILURES REPORTED              |
+          | WARP REACTOR OFFLINE - SCRAM                        |
           |-----------------------------------------------------|
           ```
 
@@ -592,6 +634,12 @@ Content:
 
       Once the Endeavour has made it to the station, or become crippled by the anomalies,
       the players feel a lurch in their stomachs yet again.
+  -
+    separate: True
+    Title: Vulcan High Command T'shuvath Stellar Laboratory
+    Subtitle: Scene 4 (T + 6 Hours)
+    Text: >-
+      
 #    Diagram: |
 #      ```
 #      ```
