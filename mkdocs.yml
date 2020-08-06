@@ -7,8 +7,8 @@ theme:
     primary: blue
     accent: blue
   favicon: 'img/favicon.ico'
-  logo:
-    icon: 'explore'
+  icon:
+    logo: 'material/compass'
 repo_name: 'tapanther/STA-CCC-GM'
 repo_url: 'https://github.com/tapanther/STA-CCC-GM'
 site_url: 'https://tapanther.github.io/STA-CCC-GM/'
@@ -39,13 +39,15 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.details
 
 nav:
   - Home : index.md
   - General :
     - Timeline : Timeline.md
   - Missions :
-    - War Games : WarGames.md
+    - Time Skips (Mission 5) : TimeSkip.md
+    - War Games (Mission 3) : WarGames.md
   - Categories :
       - General : General.md
       - Missions : Missions.md
