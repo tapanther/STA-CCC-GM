@@ -7,9 +7,9 @@ altLinks :
 GeneralInfo :
   Description: >-
     An experiment gone wrong abord the Vulcan Science Directorate's T'shannaik
-    Stellar Laboratory leads the Endeavour crew to a Vulcan/Andorian border system to
+    Stellar Laboratory leads the *Endeavour* crew to a Vulcan/Andorian border system to
     render assistance. The Laboratory was conducting a series of high-energy temporal
-    mechanics experiments, which results in the Endeavour bridge crew not only being
+    mechanics experiments, which results in the *Endeavour* bridge crew not only being
     thrown forward and backward within their timeline, but across multiple alternate
     realities as they try to unravel the station's mysteries and prevent their own
     demise.
@@ -195,9 +195,9 @@ Content:
 
 
       Due to the massive amount of missing information, players must perform a
-      Control + Command Task with a Difficulty of 0 in order to perform the Damage
-      Report. Any attempt to question the Captain or the rest of the crew is met by
-      a sharp rebuke and a direct order you carry out instructions.
+      **Control + Command** Task with a Difficulty of 0 in order to perform the
+      Damage Report. Any attempt to question the Captain or the rest of the crew is
+      met by a sharp rebuke and a direct order you carry out instructions.
 
 
       !!! quote "This is not the Time..."
@@ -622,15 +622,21 @@ Content:
       !!! quote "T'Var's Warning"
 
           You should be approaching the air-gap now. The turbolifts are down, so you
-          will need to descend carefully. Fortunately the security system is unpowered,
-          otherwise your traversal would be significantly more difficult. Once you are
-          inside the station core, you will need to reroute power to the station's
-          communication channels, otherwise I will be unable to guide you further as
-          the chamber is hardened against interference.
+          will need to descend carefully. Fortunately the security system is
+          unpowered, otherwise your traversal would be significantly more difficult.
+          Once you are inside the station core, you will need to reroute power to the
+          station's communication channels, otherwise I will be unable to guide you
+          further as the chamber is hardened against interference.
 
 
       If the players have questions for Subcommander V'Thena, they will find her
-      quite dry and uninterested in conversation.
+      quite dry and uninterested in conversation. The key detail they should gain is
+      that the attack was sudden, unexpected, and unmotivated. Neither V'Thena nor
+      the players know at this time that the Andorians attacking the station were
+      uncontrolled leaks from another alternate reality. There is evidence, ranging
+      from the strange uniforms and insignia, and data padds with references to the
+      Andorian People's Army, presumably an unknown splinter faction with surprising
+      organization, in reality an alternate reality faction at war with Vulcan.
 
 
       ??? info "What the Subcommander Knows"
@@ -639,7 +645,7 @@ Content:
               - Vulcan High Command T'shuvath Stellar Laboratory
           - Why are we here?  
               - The *Endeavour* is responding to a distress signal from the
-              Laboratory, which came under attack by the Andorian Empire. Though
+              Laboratory, which suddenly came under attack by the Andorian Empire. Though
               ostensibly neutral, Starfleet has de-facto sided with the High Command.
           - Why are we in this hallway?
               - The experiment running in the station's core must be shut down. T'Var
@@ -650,25 +656,30 @@ Content:
               she knows is that there are pockets of survivors throughout the crippled
               station.
           - What happened?  
-              - The Andorian Imperial Guard attempted to take the station, but failing
+              - An unknown group of Andorians attempted to take the station, but failing
               that resorted to attempting to destroy it. They have been repelled, but
-              the damage is extensive.
-          - What happened earlier?
-              - A half dozen Imperial Guard attempted to take the principal scientists
-              hostage, but was repelled thanks to the players' assistance.
+              the damage is extensive. Most strangely, the Andorian attackers were not
+              wearing typical Imperial Guard uniforms.
+          - What happened moments earlier?
+              - A half dozen Andorian soldiers attempted to take the principal scientists
+              hostage, but was repelled thanks to the players' assistance. Their bodies
+              were searched and revealed they must have been from a splinter faction,
+              though an incredibly organized one.
           - What is the station's current status?
               - Badly damaged and facing severe structural damage. Most of the
               crew is probably dead or trapped in disjoint pockets. With internal
               sensors and communications down, it's impossible to tell.
           - Where is the *Endeavour*?  
-              - Currently chasing down the Andorian vessels that attacked the station.
+              - Currently chasing down the unknown Andorian vessels that attacked the
+              station.
           - Why are the Andorians attacking?
-              - They are convinced that the High Command is using the laboratory to
-              develop weapons of mass destruction, a patently ridiculous idea.
+              - No idea, the laboratory isn't remotely worth a shooting war with the
+              High Command and the Empire.
           - Why isn't the Coalition stopping them?
-              - What Coalition. If you're referring to the treaty of Galorndorn Core,
+              - What Coalition. If you're referring to the Treaty of Galorndorn Core,
               everyone knows that the recent alliance between the High Command and
-              the Romulan Star Empire was what precipitated this war in the first place.
+              the Romulan Star Empire has put the Andorians on edge, but this is an
+              entirely illogical target.
           - What is the history between Starfleet and the Vulcans/Romulans?  
               - Earth was a Vulcan protectorate until the Vulcan-Romulus treaty two
               years ago, whch elevated it to an independent stellar nation in gratitude
@@ -795,14 +806,45 @@ Content:
       research.
 
 
+      ??? quote "Colonel Winchester's Log: August 2161"
+
+          The *Endeavour* is responding to an automated distress signal from the
+          Andorian Free State Sh'othethal Stellar Laboratory on the Andorian Badlands
+          border. With the Self-Defense Forces fleet still recovering from the recent
+          Klingon incursions, EarthDome has ordered us to lend whatever assistance
+          the laboratory requires until an Andorian aid vessel can be dispatched. I
+          have alerted sickbay to prepare to receive casualties, and our Chief
+          Engineer is prepared to direct damage control teams should the station's
+          structural integrity be compromised. Without any further information from
+          the Laboratory personnel, we must be prepared for any contingency.
+
+
+          Long range sensors have picked up strange energy readings emanating from
+          the station, though the main computer has so far failed to match the
+          readings to any known source, natural or otherwise. My Science Officer
+          could not assure me that the readings do not pose a threat to the
+          *Endeavour*, but I have decided to press on ahead at maximum warp. With the
+          recent rumblings along the Klingon border, EarthDome could use all the
+          goodwill we can get. We're only minutes away from the station, should my
+          decision prove unwise this will be my last log entry. Due to the unknown
+          nature of the disaster that has struck the station, I have asked that all
+          potential away team members be innoculated against a wide range of
+          radiological hazards, starting with my senior officers. Doctor Bauer is
+          performing the injections now.
+
+
+          Computer, note the time and date in the ship's log. Mr. jav-Karst, please
+          update our records and jettison the ship's log buoy.
+
+
+
       ??? info "What the Endeavour's Log Shows"
 
           - Where are we?  
               - Andorian Free State Sh'othethal Stellar Laboratory
           - Why are we here?  
               - The *Endeavour* is responding to a distress signal from the
-              Laboratory, which came under attack by a Vulcan military fragment
-              calling itself the Central Command.
+              Laboratory.
           - Has there been communication with the station?
               - No. Only the automated distress signal.
           - What happened earlier?
@@ -812,14 +854,16 @@ Content:
               - Badly damaged and facing severe structural damage. Most of the
               crew is probably dead or trapped in disjoint pockets. With internal
               sensors and communications down, it's impossible to tell.
-          - Where are the Vulcan attackers?  
+          - Where are the attackers?  
               - Unknown, it's possible they got what they wanted and left, or they
-              could be hiding nearby, ready to spring a trap.
+              could be hiding nearby, ready to spring a trap. Early sensor readings
+              indicate the weapons were Vulcan.
           - Why are the Vulcans attacking?
               - Tensions between warring Vulcan factions and their former subjugate
               nations are at an all-time high. After the implosion of the Vulcan government
               and the subsequent breakup of their hegemony five years ago, some factions
-              are trying to carve out a piece of the carcass for themselves.
+              are trying to carve out a piece of the carcass for themselves. Presumably
+              some new faction has sprung up and decided to attack a soft target.
           - Why is the *Endeavour* helping?
               - EarthDome considers improving relations with the Andorian Free State
               of paramount importance to planetary security.
@@ -1010,6 +1054,16 @@ Content:
       Subcommander V'Thena and one of the Romulan guards, Enuhlan Vrolmut, resembles
       Subaltern Skutt. Unlike their Vulcan doppelgangers, these Romulans are charismatic
       and jovial, and seem quite friendly.
+
+
+      This scene should roughly match the information gathered during the descent to
+      the laboratory core. An unknown group of combatants appeared out of nowhere,
+      attacked without warning or cause, and left a swath of destruction before being
+      defeated, only to have a new mystery as the attackers' faction does not match
+      any known entity. This time however, it is Klingons who have crossed over and
+      attacked the station, which is especially troubling for the natives of this reality
+      as the Klingons have never been this ferocious, they tend to prefer a good deal of
+      subterfuge and covert ops.
       
 
       ??? info "What the Centurion Knows"
@@ -1017,20 +1071,23 @@ Content:
           - Where are we?  
               - Romulan Federal Republic Sethika Stellar Laboratory  
           - Why are we here?  
-              - The Romulan Republic received intelligence that a Klingon assault force
-              was underway to sabotage the station. Since Starfleet and the Republic
-              have a mutual defense treaty, the *Endeavour* responded to the distress
-              signal while a relief fleet can be dispatched.
+              - The laboratory came under sudden attack by unknown Klingon forces.
+              Since Starfleet and the Republic have a mutual defense treaty, the
+              *Endeavour* responded to the distress signal while a relief fleet can
+              be dispatched.
           - Why are we in this hallway?
               - The research team is hiding inside the emergency shelter while the
               Klingon boarding party is dealt with.  
           - Where is the rest of the station's personnel?  
               - Dead, wounded, missing, who knows? Lithena barely got the principal
               scientists evacuated into the shelter before everything went to hell.  
-          - What happened?  
+          - What happened earlier?  
               - A Klingon vessel decloaked and opened fire, allowing a troop transport
               to land troops on the station. Most of the attackers have been dispatched,
               but the defenders are scattered and uncoordinated.
+          - What happened moments earlier?
+              - The scientists were 'escorted' into the shelter and defensive positions
+              were setup.
           - What is the station's current status?
               - Badly damaged and facing severe structural damage. Most of the
               crew is probably dead or trapped in disjoint pockets. With internal
@@ -1039,8 +1096,8 @@ Content:
               - Currently chasing down the Klingon troop transport to prevent the
               assault team from being retrieved.
           - Why are the Klingons attacking?
-              - They are convinced that the Republic is using the laboratory to
-              develop weapons of mass destruction, a patently ridiculous idea.
+              - Unclear, the Klingons have never been particularly aggressive, this
+              must be some kind of violent splinter group looking to make a quick buck.
           - Where are the Vulcans?
               - Presumably dead, they split off thousands of years ago and have
               basically become little more than a legend. It is surprising that
@@ -1063,7 +1120,9 @@ Content:
       None of the other Romulans are particularly talkative, as they expect the
       Klingon assault to occur any moment. Indeed, the players may only get a few
       questions answered before the lights and sounds of 6 Klingon soldiers
-      approaching.
+      approaching. The Romulans will voice their confusion at the strange attire
+      and odd choice of weapons, which to the players should seem typically
+      Klingon.
 
 
       ??? danger "Klingon Warror"
@@ -1114,10 +1173,16 @@ Content:
 
 
       If the players successfully hold the corridor, the Klingon force is repelled
-      and/or taken into custody by the Romulans. As the emergency shelter is open,
-      the scientists can be probed for additional information about their
-      experiments. One scientist in particular, Tolvar, insists that he must get back
-      to the laboratory core, as the station and everyone in it are in grave danger.
+      and/or taken into custody by the Romulans. As before, the insignia and equipment
+      doesn't appear to be recognized by the Romulans, who have never heard of the
+      Klingon Empire. They're familiar with the Klingon Consortium, but this could
+      represent a drastic shift in culture, or some long-lost warrior splinter faction.
+
+
+      As the emergency shelter is open, the scientists can be probed for additional
+      information about their experiments. One scientist in particular, Tolvar,
+      insists that he must get back to the laboratory core, as the station and
+      everyone in it are in grave danger.
 
 
       ??? danger "Tolvar"
