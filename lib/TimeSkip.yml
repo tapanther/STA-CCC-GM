@@ -1,7 +1,7 @@
 ---
 node : Missions
 template : Generic.md
-title : Time Skips (Mission 5)
+title : Time Skips
 altLinks :
   - Time Skips
 GeneralInfo :
@@ -49,52 +49,23 @@ Content:
             - >-
               Investigate the Anomalous Energy Readings from the Station
   -
+    Text: >-
+      <div style="page-break-after: always;"></div>
+  -
     Title: Sequences of Events
-    Diagram : |
+    Text: >-
       *Linear Sequence of Events*
 
-      ```mermaid
-      stateDiagram-v2
-        s0 : 0 - Warp In
-        s1 : 1 - Scan System
-        s2 : 2 - Rescue Scientists
-        s3 : 3 - Travel to Core
-        s4 : 4 - Shutdown Experiment
-        s5a : 5A - Endeavour Destroyed
-        s5b : 5B - Endeavour Safe
-        
-        [*] --> s0
-        s0 --> s1
-        s1 --> s2
-        s2 --> s3
-        s3 --> s4
-        s2 --> s5a : Experiment Continues
-        s4 --> s5b : Experiment Ends
-        s5a --> [*]
-        s5b --> [*]
-      ```
+      ![Linear Sequence of Events](img/linear.png)
+
+
 
       *Player's Perspective Sequence of Events*
 
-      ```mermaid
-      stateDiagram-v2
-        s0 : 0 - Warp In
-        s1 : 1 - Scan System
-        s2 : 2 - Rescue Scientists
-        s3 : 3 - Travel to Core
-        s4 : 4 - Shutdown Experiment
-        s5a : 5A - Endeavour Destroyed
-        s5b : 5B - Endeavour Safe
-        
-        [*] --> s0
-        s0 --> s5a
-        s1 --> s2
-        s2 --> s4
-        s3 --> s1
-        s4 --> s5b
-        s5a --> s3
-        s5b --> [*]
-      ```
+      ![Player Perspective](img/player.png)
+
+      
+      <div style="page-break-after: always;"></div>
   -
     separate: True
     Subtitle: Scene 0 (T + 0 Hours)
@@ -124,12 +95,15 @@ Content:
           decision prove unwise this will be my last log entry. Due to the unknown
           nature of the disaster that has struck the station, I have asked that all
           potential away team members be innoculated against a wide range of
-          radiological hazards, starting with my senior officers. Doctor Bauer is
+          radiological hazards, starting with my senior officers. The doctor is
           performing the injections now.
 
 
-          Computer, note the time and date in the ship's log. Mr. jav-Karst, please
+          Computer, note the time and date in the ship's log. Comm, please
           update our records and jettison the ship's log buoy.
+
+           
+      <div style="page-break-after: always;"></div>
   -
     separate: True
     Title: All Hands Abandon Ship!
@@ -207,7 +181,7 @@ Content:
           the time to daudle people!
 
 
-      ??? info "Conn Damage Report"
+      !!! info "Conn Damage Report"
 
           ```
           |-----------------------------------------------------|
@@ -241,7 +215,7 @@ Content:
           ```
 
 
-      ??? info "Communications Damage Report"
+      !!! info "Communications Damage Report"
 
           ```
           |-----------------------------------------------------|
@@ -280,7 +254,7 @@ Content:
           ```
 
           
-      ??? info "Science Damage Report"
+      !!! info "Science Damage Report"
 
           ```
           |-----------------------------------------------------|
@@ -334,7 +308,7 @@ Content:
           ```
 
           
-      ??? info "Tactical Damage Report"
+      !!! info "Tactical Damage Report"
 
           ```
           |-----------------------------------------------------|
@@ -383,7 +357,7 @@ Content:
           ```
 
 
-      ??? info "Engineering Damage Report"
+      !!! info "Engineering Damage Report"
 
           ```
           |-----------------------------------------------------|
@@ -479,6 +453,9 @@ Content:
       fail catastrophically and destroy the *Endeavour*. Just as the bridge fills
       with a brilliant light, the players feel a lurch in their stomachs, as their
       consciousnesses are sent back in time to an earlier point.
+
+      
+      <div style="page-break-after: always;"></div>
   -
     separate: True
     Title: Vulcan High Command T'shuvath Stellar Laboratory
@@ -499,7 +476,7 @@ Content:
       ![V'Shar](img/VulcanV_Shar.png)
       
 
-      ??? danger "Subcommander V'Thena"
+      !!! danger "Subcommander V'Thena"
           ```
           Name: V'Thena
           Traits: Vulcan
@@ -544,7 +521,7 @@ Content:
           ```
 
 
-      ??? danger "Vulcan Soldier"
+      !!! danger "Vulcan Soldier"
           ```
           Names: Skutt, Sujel, T'Koss, Invel, T'Vor
           Traits: Vulcan
@@ -583,7 +560,7 @@ Content:
       scientists, speaks over a garbled comm channel.
 
 
-      ??? danger "T'Var"
+      !!! danger "T'Var"
           ```
           Name: T'Var
           Traits: Vulcan
@@ -633,7 +610,7 @@ Content:
       quite dry and uninterested in conversation.
 
 
-      ??? info "What the Subcommander Knows"
+      !!! info "What the Subcommander Knows"
 
           - Where are we?  
               - Vulcan High Command T'shuvath Stellar Laboratory
@@ -710,7 +687,7 @@ Content:
       security system has mistaken the group for saboteurs.
 
 
-      ??? danger "Vulcan Phaser Turret"
+      !!! danger "Vulcan Phaser Turret"
           ```
           Name: Phaser Turret
           Traits: Vulcan Robot
@@ -749,6 +726,9 @@ Content:
       The inner airlock must also be bypassed or forced open. If the turrets are still
       firing, the Task has a Difficulty of 4. Once inside the airlock however, the
       group will be safe from the turrets, only to be flung once again through time.
+
+
+      <div style="page-break-after: always;"></div>
   -
     separate: True
     Title: Andorian Free State Sh'othethal Stellar Laboratory
@@ -761,7 +741,7 @@ Content:
       of UnitedEarth and Starfleet, respectively.
 
 
-      ![EarthDome](img/Earthdome_wiki.webp)
+      ![EarthDome](img/Earthdome_wiki.png)
 
 
 
@@ -769,7 +749,7 @@ Content:
       the army rather than the navy.
 
 
-      ??? info "Rank Translation"
+      !!! info "Rank Translation"
 
           | Naval Rank     | Army Rank |
           |:--------------:|:---------:|
@@ -795,7 +775,7 @@ Content:
       research.
 
 
-      ??? info "What the Endeavour's Log Shows"
+      !!! info "What the Endeavour's Log Shows"
 
           - Where are we?  
               - Andorian Free State Sh'othethal Stellar Laboratory
@@ -889,6 +869,9 @@ Content:
 
       Once the *Endeavour* has made it to the station, or become crippled by the
       anomalies, the players feel a lurch in their stomachs yet again.
+
+
+      <div style="page-break-after: always;"></div>
   -
     separate: True
     Title: Romulan Federal Republic Sethika Stellar Laboratory
@@ -919,7 +902,7 @@ Content:
       an offshoot of ancient Vulcan.
 
 
-      ??? danger "Centurion Lithena"
+      !!! danger "Centurion Lithena"
           ```
           Name: Lithena
           Traits: Romulan
@@ -964,7 +947,7 @@ Content:
           ```
 
 
-      ??? danger "Romulan Soldier"
+      !!! danger "Romulan Soldier"
           ```
           Names: Vrolmut, Chekal, Pirri
           Traits: Romulan
@@ -1012,7 +995,7 @@ Content:
       and jovial, and seem quite friendly.
       
 
-      ??? info "What the Centurion Knows"
+      !!! info "What the Centurion Knows"
 
           - Where are we?  
               - Romulan Federal Republic Sethika Stellar Laboratory  
@@ -1066,7 +1049,7 @@ Content:
       approaching.
 
 
-      ??? danger "Klingon Warror"
+      !!! danger "Klingon Warror"
           ```
           Name: Maq, Soral, Shossa, Ekell, Lenill, Worgh
           Traits: Klingon
@@ -1120,7 +1103,7 @@ Content:
       to the laboratory core, as the station and everyone in it are in grave danger.
 
 
-      ??? danger "Tolvar"
+      !!! danger "Tolvar"
           ```
           Name: Tolvar
           Traits: Romulan
@@ -1156,7 +1139,7 @@ Content:
           ```
 
 
-      ??? info "Tolvar's Worries"
+      !!! info "Tolvar's Worries"
 
           Tolvar will speak to anyone who will listen. He has been pouring through
           the experimental data while sheltering, and has come to the conclusion that
@@ -1195,6 +1178,9 @@ Content:
 
       In any event, the players will eventually feel the now-familiar lurching
       sensation before the scientists can return to the experimental chamber.
+
+
+      <div style="page-break-after: always;"></div>
   -
     separate: True
     Title: Unknown Abandoned Space Station
@@ -1236,35 +1222,8 @@ Content:
           - Gathered Anomaly Data       : -2 Complication Range to Tasks
           ```
 
-  -
-    Diagram: |
-      ```mermaid
-      graph TD;
-        classDef Task fill:#fcc
-      
-        start([Start])
-        interlock[[Bypass Accelerator Safety Interlocks]]
-        iDC(Control + Security DC 2, C:17+)
-        valve[[Open Emergency Coolant Valves]]
-        vDC(Fitness + Engineering DC 1, C:19+)
-        shield[[Reroute Auxiliary Power to Accelerator Shielding]]
-        sDC(Daring + Engineering DC 3, C:16+)
-        inject[[Accelerate Anti-Chronitons to Gravimetric Resonance]]
-        jDC(Reason + Science DC 2)
-        quench[[Collide the Harmonic Beams to Quench Reaction]]
-        qDC(Control + Science/Engineering DC 2)
-        done([Experiment Shut Down])
 
-        class iDC,vDC,sDC,jDC,qDC Task;
-
-        start --> interlock --> iDC
-        iDC -->  valve & shield & inject
-        valve --> vDC --> quench
-        shield --> sDC --> quench
-        inject --> jDC --> quench
-        quench --> qDC --> done
-      
-      ```
+      ![Experiment](img/experiment.png)
   -
     Text: >-
       A complication in an earlier task affects the next in sequence, increasing
@@ -1278,6 +1237,9 @@ Content:
       irreversible, and the station will be destroyed. Regardless of the outcome,
       just as the final exotic particles are annihilated, a surge of radiation
       kicks the players forward in time.
+
+
+      <div style="page-break-after: always;"></div>
   -
     separate: True
     Title: Vucan Science Directorate T'shannaik Stellar Laboratory
