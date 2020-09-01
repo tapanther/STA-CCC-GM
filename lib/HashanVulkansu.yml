@@ -1,0 +1,323 @@
+---
+node : Missions
+template : Generic.md
+title : Wuh Hashan Vulkansu
+altLinks :
+  - Flying Vulcan
+  - Hashan Vulkansu
+GeneralInfo :
+  Description: >-
+    The *Vaankara*, Vulcan science vessel long-thought lost to the Delphic Expanse
+    re-appears on long-range sensors traveling at high warp towards a Romulan colony.
+    All attempts to contact the vessel have failed, though that is to be expected as
+    the Vulcan High Command had received a transmission from the *Vaankara* showing
+    the crew killing each other violently as a result of Trellium-D induced psychosis.
+    The ship is travelling slightly too fast for the Endeavour's Warp Five engine
+    to keep up with, but it should be possible to match velocities just long enough
+    for a small away team to transport aboard and shut down the *Vaankara*'s warp
+    engines before it crosses into Romulan territory.
+#  Diagram : |
+#    ```
+#    ```
+Content:
+  -
+    Title: Directives
+    Table:
+      Meta:
+        Columns:
+          - Directive
+        Rows:
+          -
+            - >-
+              Do Not Reveal Information About the Romulans.
+          -
+            - >-
+              Do Not Enter Romulan Space
+          -
+            - >-
+              Prevent the *Vaankara* from Entering Romulan Space
+          -
+            - >-
+              Recover the *Vaankara*'s Flight Data Recorder
+          -
+            - >-
+              Secure the *Vaankara* for Salvage by the Vulcan Space Agency
+  -
+    separate: True
+    Subtitle: Scene 0
+    Title: Introduction
+    Text: >-
+      !!! quote "Captain's Log: Stardate 2161.8"
+
+          Four hours ago, Starfleet received an emergency request from the Vulcan
+          High Council, requesting that the *Endeavour* be immediately dispatched
+          to the nearby Gamma Hydrae system along the disputed Romulan Border. A
+          Tellarite deep-space survey vessel picked up the *Vaankara*, a Vulcan
+          vessel lost in the Delphic Expanse four years ago, on long range sensors
+          seemingly heading directly for Romulan Space at approximately Warp 5.8. All
+          attempts to contact the *Vaankara* were unsucessful, though given the
+          ship's final transmission that is perhaps to be expected.
+
+
+          The Tellarite ship was unable to catch up to the *Vaankara*, but
+          fortunately the captain was able to determine the ship's approximate
+          heading before it disappeared from their sensor range. Based on the
+          Vulcan's best estimates, the *Vaankara* will pass by the Cheron system in
+          about ten days, where the Romulan Star Empire has established a colony just
+          outside Coalition sensor range.
+
+
+          Whatever the reason for the *Vaankara*'s mysterious heading, the Romulans
+          are sure to consider even a minor breach of their borders an act of
+          aggression. To have a Vulcan vessel pass by one of their colonies could
+          pull Vulcan and the Coalition into a pointless war. It is our mission to
+          ensure that the sovereignty of the Empire's borders is respected. The
+          *Endeavour* is to set an intercept course that will bring us within
+          transporter range of the *Vaankara* as it passes through Gamma Hydrae.
+          Though we will be unable to maintain speed with the Vulcan ship for long,
+          my engineer assures me the *Endeavour* can sustain Warp 5.8 for no less
+          than 90 seconds, just enough time to beam aboard an away team.
+
+
+          It will be up to them to disable the *Vaankara*'s warp drive, or failing
+          that, activate the ship's self-destruct and eject in one of the escape pods
+          before it crosses into Romulan space approximately four hours after our
+          intercept. A Vulcan salvage vessel is scheduled to rendezvous with us
+          within 48 hours. Should the away team succeed in safely stopping the
+          *Vaankara*, they will take over the somber task of finally laying this
+          ghost ship to rest.
+
+  -
+    Subtitle: Why Not Simply Destroy the *Vaanara*?
+    Text: >-
+      Some players may wonder why they shouldn't simply destroy or disable the
+      *Vaankara* after closing within weapons range. While this would effectively
+      solve the core issue of violating Romulan Space, this is effectively the
+      quickest way to a "Bad Ending" for this mission. The *Vaankara* is extrememly
+      damaged, and it is unlikely to be able to withstand any additional weapons
+      fire. Indeed, the ship's Structure is a single breach from complete destruction,
+      and as that is the most likely hit location, the risk is too great.
+
+      
+      Destroying the *Vaankara* without ensuring that there are in fact no survivors
+      and without even an attempt to salvage the craft is certain to cause a
+      political incident with the Vulcan High Council. Starfleet Command will not
+      look kindly upon officers that shoot first and ask questions later, especially
+      where Coalition allies are concerned. The players would find themselves court
+      martialed for dereliction of duty at a minimum, possibly multiple counts of
+      murder if the Vulcan salvage vessel finds the corpses of recently killed
+      Vulcans amongs the wreckage.
+
+
+      All of this information would be known by the players' characters, but the GM
+      may need to remind players. It is not Starfleet's policy to open fire upon a
+      defenseless vessel without cause, and Starfleet has no use for officers that
+      feel otherwise.
+  -
+    separate: True
+    Subtitle: Scene 1
+    Title: Intercept with the *Vaankara*
+    Text: >-
+      The *Vaankara* appears at extreme sensor range approximately 30 seconds before
+      the *Endeavour* accelerates to Warp 5.8, a speed it can only hold for an
+      extremely short period of time without suffering catastrophic damage to its
+      engines.
+
+      
+      The away team should already be at the transporter pad. Up to six (6) crew
+      members can transport in a single cycle. If there are fewer than six players,
+      they may choose additional members of the crew (NPCs or supporting characters)
+      to accompany them, at the cost of one (1) **Crew Support** per character. A
+      player may switch to control one of these additional crew members at the start
+      of a scene for free, but cannot use **Crew Support** to bring in additional
+      characters that did not transport over. If there are more than six (6) players,
+      you may rationalize the greater transport capacity as a volumetric transport
+      rather than an entity-transport, but increase the complication range for the
+      transport Task by two (2) as the *Endeavour*'s transporter is not meant to
+      transport humans in that mode.
+
+
+      As soon as the *Vaankara* enters the transporter window, the away team is on a
+      timer to complete the transport. The window will last just 90 seconds, and the
+      transporter takes at least 30 seconds to cycle. The Transporter Task is a
+      **Control + Engineering** Task with a Difficulty of 2 and a Complication Range
+      of 17+, assisted by the ship's **Sensors + Engineering**. This takes into
+      account the +1 Difficulty increase due to the *Vaankara*'s non-functional
+      Transporter Pad, and the -1 Difficulty decrease from performing the Task from
+      the Transporter Room. The Transporter Task can Succeed at a Cost.
+
+
+      ??? failure "Transporter Complications"
+
+          - The away team beams aboard the wrong location in the *Vaankara*.
+          
+              - Good locations include the Mess Hall, Shuttle Bay, Crew Quarters, Cargo
+              Bays, or anywhere else that is far from the Bridge or Engineering.
+            
+          - The away team is transported to different locations aboard the *Vaankara*.
+          
+              - Consider putting the crew on separate decks, or possibly across two
+              sides of a bulkhead or jefferies tube.
+
+          - The away team's equipment is damaged in the transport, the result of an
+          automatic safety feature in the pattern buffer in order to protect the
+          organic matter from losing integrity.
+
+          - The away team beams into a breached corridor, sealed off from the rest
+          of the ship by emergency bulkheads. They must venture outside to find
+          another entry point.
+
+          - The beam-in causes a power surge in the *Vaankara*'s EPS grid that begins
+          flooding the compartment with radiation, forcing the away team to abandon any
+          large equipment or spare parts they may have brought in order to reach
+          a safe zone.
+  -
+    separate: True
+    Subtitle: Scene 1 (Alternate)
+    Title: Intercept with the *Vaankara* (Alternate)
+    Text: >-
+      Note that as it is critical that the away team make it aboard the *Vaankara*,
+      it is strongly suggested that the Transporter Task be allowed to Succeed at a
+      Cost. If a more dynamic introduction scene is desired, consider using a Gated
+      Task for the beam-in.
+  -
+    Diagram: |
+      ```mermaid
+      graph TD;
+        classDef Task fill:#fcc
+      
+        start([Start])
+
+        locate[[Locate the Vaankara on Sensors]]
+        locateDC(Reason + Science, assisted by Sensors + Science, DC 1, C:20)
+
+        plot[[Optional - Plot an Intercept with the Vaankara]]
+        plotDC(Reason + Conn, assisted by Computers + Conn, DC 3, C:20)
+
+        warpcore[[Raise Warp Reactor Power Output to Emergency Warp]]
+        warpcoreDC(Daring/Control + Engineering, DC 2, C: 18+)
+        
+        intercept[[Match Velocities with the Vaankara Without Compromising Structural Integrity]]
+        interceptDC(Daring + Conn, assisted by Structure + Engineering, DC 2, C:19+)
+
+        close[[Close to Transporter Range with the Vaankara]]
+        closeDC(Control + Conn, assisted by Engines + Conn, DC 2, C:19+)
+
+        lock[[Locate a Suitable Beam-In Site]]
+        lockDC(Insight + Science, assisted by Sensors + Science, DC 1)
+        
+        transport[[Set the Transporter to Automatic Cycle to beam into the Vaankara]]
+        transportDC(Control + Engineering, assisted by Sensors + Engineering, DC 2, C:18+)
+        
+        done[[Away Team Aboard Vankara]]
+        
+        class locateDC,plotDC,warpcoreDC,interceptDC,closeDC,lockDC,transportDC Task
+
+        start --> locate --> locateDC
+        locateDC -->  warpcore & lock
+        locateDC -.-> plot & intercept
+        warpcore --> warpcoreDC
+        plot --> plotDC --> intercept --> interceptDC --> close --> closeDC
+        lock --> lockDC
+        warpcoreDC & closeDC & lockDC --> transport
+        transport --> transportDC --> done
+      
+      ```
+      Text: >-
+        Aside from the optional *Plot an Intercept with the Vaankara*, all Tasks
+        should be able to Succeed at a Cost. Non-optional failed Tasks should increase
+        the Difficulty of the next Task downwards in the sequence. For example, *Close
+        to Transporter Range* and *Locate a Suitable Beam-In Site* would both increase
+        the Difficulty of *Set the Transporter to Automatic Cycle* if failed.
+
+
+        If too many Tasks are failed, it is possible that the ship is unable to maintain
+        distance with the *Vaankara*. This could lead to a new set of Engineering-related
+        Tasks in order to squeeze additional speed out of the engines to allow a second
+        attempt.
+
+
+        Ultimately, if too many Tasks are failed, it may come to
+  -
+    separate: True
+    Subtitle: Scene 2
+    Title: Aboard the *Vaankara*
+    Text: >-
+      Once aboard, the away team will receive a signal from the *Endeavour* that
+      it has reduced speed to the safe maximum of Warp 5.4. From this moment on,
+      the away team is on its own and must complete the mission, otherwise they are
+      sure to be captured or killed by the Romulans upon entering their territory.
+          
+      
+      The *Vaankara* is in a terrible state. Every compartment has some problem,
+      ranging from lack of artificial gravity to drive plasma leaks to extreme
+      temperature variations. The player characters will need to stay in their EV
+      suits throughout their mission, at least until they can secure and repair some
+      compartment of the ship.
+
+
+      An environmental scan of the *Vaankara*, using a **Reason + Medicine** Task
+      with Difficulty 1, reveals that the atmosphere (where it exists) is heavily
+      contanimated with Trelium-D, a material known to protect against the effects
+      of the spatial anomalies found in the Delphic Expanse.
+
+
+      Additional information may be obtained by spending Momentum.
+      
+
+      - Several clusters of organic matter consistent with Vulcan corpses are
+      detected on the scan, though the readings are unclear as to exactly how many
+      bodies givent he state of decomposition. Some of the clusters appear to be
+      *moving*, though the readings are highly distorted, so it is possible that
+      it is a sensor ghost.
+
+      - The *Vaankara*'s atmosphere contains large quantities of organic volatiles
+      consistent with organic acids and solvents. Several compartments show damage
+      to the bulkheads where these compounds have eaten away at the duranium alloys
+      favored by Vulcan construction.
+      
+      
+      - Many of the walls have splatters consistent with sprays from blunt impacts.
+      The splatters are old and dried out, but unmistakeably rich in copper compounds
+      typically found in Vulcanoid blood. The scans show trace amounts of the same
+      organic acids and solvents, though in such minute quantities as to possibly be
+      due to cross contamination over the years.
+
+
+      As the *Enterprise* discovered, Trellium-D is extremely toxic to Vulcanoids,
+      even brief exposure to minute quantities can lead to serious neurological
+      damage. With the quantities found aboard the *Vaankara*, it's obvious that the
+      crew would have quickly succombed to Trellium induced psychosis and murdered
+      each other.
+
+
+      Unbeknownst to the players, the crew on the *Vaankara* is not entirely dead. Of
+      an original crew complement of 147, there are 41 who did not perish in the
+      outbreak of rage and violence that marked the ship's last transmission. Those
+      so-called survivors have become shuffling husks completely devoid of any
+      semblance of humanity. They are the *Ghosts of the Vaankara*, and they are
+      consumed by an unquenchable rage.
+
+
+      Depending on where the away team beamed-in, it is possible that the putrid,
+      dismembered bodies of the *Vaankara*'s crew can be found in the same compartment.
+      A **Reason + Medicine** Task with Difficulty 1 will show that they died from
+      injuries sustained during an all-out brawl. It is clear that the violence did
+      not stop with their deaths, as all the corpses show signs of post-mortem
+      dismemberment and even cannibalism.
+          
+#    Diagram: |
+#      ```
+#      ```
+#    Table :
+#      "# - #" : TEXT
+#      Meta : 
+#        Columns :
+#          - COL1
+#          - COL2
+#        Rows :
+#          -
+#            - ROW1COL1
+#            - ROW2COL2
+#Links :
+#  - LINK
