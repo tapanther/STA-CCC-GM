@@ -44,6 +44,33 @@ Content:
               Secure the *Vaankara* for Salvage by the Vulcan Space Agency
   -
     separate: True
+    Title: Why Not Simply Destroy the *Vaankara*?
+    Text: >-
+      Some players may wonder why they shouldn't simply destroy or disable the
+      *Vaankara* after closing within weapons range. While this would effectively
+      solve the core issue of violating Romulan Space, this is effectively the
+      quickest way to a "Bad Ending" for this mission. The *Vaankara* is extrememly
+      damaged, and it is unlikely to be able to withstand any additional weapons
+      fire. Indeed, the ship's Structure is a single breach from complete destruction,
+      and as that is the most likely hit location, the risk is too great.
+
+      
+      Destroying the *Vaankara* without ensuring that there are in fact no survivors
+      and without even an attempt to salvage the craft is certain to cause a
+      political incident with the Vulcan High Council. Starfleet Command will not
+      look kindly upon officers that shoot first and ask questions later, especially
+      where Coalition allies are concerned. The players would find themselves court
+      martialed for dereliction of duty at a minimum, possibly multiple counts of
+      murder if the Vulcan salvage vessel finds the corpses of recently killed
+      Vulcans amongs the wreckage.
+
+
+      All of this information would be known by the players' characters, but the GM
+      may need to remind players. It is not Starfleet's policy to open fire upon a
+      defenseless vessel without cause, and Starfleet has no use for officers that
+      feel otherwise.
+  -
+    separate: True
     Subtitle: Scene 0
     Title: Introduction
     Text: >-
@@ -86,33 +113,6 @@ Content:
           within 48 hours. Should the away team succeed in safely stopping the
           *Vaankara*, they will take over the somber task of finally laying this
           ghost ship to rest.
-
-  -
-    Subtitle: Why Not Simply Destroy the *Vaanara*?
-    Text: >-
-      Some players may wonder why they shouldn't simply destroy or disable the
-      *Vaankara* after closing within weapons range. While this would effectively
-      solve the core issue of violating Romulan Space, this is effectively the
-      quickest way to a "Bad Ending" for this mission. The *Vaankara* is extrememly
-      damaged, and it is unlikely to be able to withstand any additional weapons
-      fire. Indeed, the ship's Structure is a single breach from complete destruction,
-      and as that is the most likely hit location, the risk is too great.
-
-      
-      Destroying the *Vaankara* without ensuring that there are in fact no survivors
-      and without even an attempt to salvage the craft is certain to cause a
-      political incident with the Vulcan High Council. Starfleet Command will not
-      look kindly upon officers that shoot first and ask questions later, especially
-      where Coalition allies are concerned. The players would find themselves court
-      martialed for dereliction of duty at a minimum, possibly multiple counts of
-      murder if the Vulcan salvage vessel finds the corpses of recently killed
-      Vulcans amongs the wreckage.
-
-
-      All of this information would be known by the players' characters, but the GM
-      may need to remind players. It is not Starfleet's policy to open fire upon a
-      defenseless vessel without cause, and Starfleet has no use for officers that
-      feel otherwise.
   -
     separate: True
     Subtitle: Scene 1
@@ -223,21 +223,32 @@ Content:
         transport --> transportDC --> done
       
       ```
-      Text: >-
-        Aside from the optional *Plot an Intercept with the Vaankara*, all Tasks
-        should be able to Succeed at a Cost. Non-optional failed Tasks should increase
-        the Difficulty of the next Task downwards in the sequence. For example, *Close
-        to Transporter Range* and *Locate a Suitable Beam-In Site* would both increase
-        the Difficulty of *Set the Transporter to Automatic Cycle* if failed.
-
-
-        If too many Tasks are failed, it is possible that the ship is unable to maintain
-        distance with the *Vaankara*. This could lead to a new set of Engineering-related
-        Tasks in order to squeeze additional speed out of the engines to allow a second
-        attempt.
-
-
-        Ultimately, if too many Tasks are failed, it may come to
+    Text: >-
+      Aside from the optional *Plot an Intercept with the Vaankara*, all Tasks
+      should be able to Succeed at a Cost. Non-optional failed Tasks should increase
+      the Difficulty of the next Task downwards in the sequence. For example, *Close
+      to Transporter Range* and *Locate a Suitable Beam-In Site* would both increase
+      the Difficulty of *Set the Transporter to Automatic Cycle* if failed.
+      
+      
+      If too many Tasks are failed, it is possible that the ship is unable to maintain
+      distance with the *Vaankara*. This could lead to a new set of Engineering-related
+      Tasks in order to squeeze additional speed out of the engines to allow a second
+      attempt.
+      
+      
+      Ultimately, if too many Tasks are failed, it may come to pass that the crew
+      has no other option but to abandon the boarding plan and proceed with the
+      destruction of the *Vaankara*. Though not an positive outcome, as the
+      destruction of the ship could result in [severe consequences for both the
+      player characters specifically and Starfleet in
+      general](#why-not-simply-destroy-the-vaankara), the crew did make their best
+      attempt to intercept and salvage the *Vaankara*, a fact that won't be lost on
+      the Vulcans or Starfleet Command. 
+      
+      
+      If the attempt to board the *Vaankara* fails, consider playing out the court
+      martial.
   -
     separate: True
     Subtitle: Scene 2
