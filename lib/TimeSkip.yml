@@ -18,7 +18,7 @@ GeneralInfo :
     Unbeknownst to the players, their characters are experiencing a sequence of
     events out of order and across variations of parallel universes as a result of
     the strange radiation emanating from the crippled station resonating with the
-    particles from an anti-radiation innoculation that only the player characters
+    particles from an anti-radiation inoculation that only the player characters
     were able to receive *before* coming into range of the station. The effect cannot
     be reproduced, as once the chemicals have been exposed to the emanations they
     will rapidly decompose.
@@ -27,7 +27,7 @@ GeneralInfo :
     The emissions from the station are causing spatio-temporal anomalies throughout
     the system. These anomalies cause alternate realities to *leak* into each other,
     often with lethal consequences. The players will need to reverse the experiment
-    at the core of the laboratory to restore the boudaries between universes.
+    at the core of the laboratory to restore the boundaries between universes.
 Content:
   -
     Title: Directives
@@ -98,7 +98,7 @@ Content:
   -
     separate: True
     Subtitle: Scene 0 (T + 0 Hours)
-    Title: Vucan Science Directorate T'shannaik Stellar Laboratory
+    Title: Vulcan Science Directorate T'shannaik Stellar Laboratory
     Text: >-
       !!! quote "Captain's Log: Stardate 2161.7"
 
@@ -119,11 +119,11 @@ Content:
           readings to any known source, natural or otherwise. My Science Officer
           could not assure me that the readings do not pose a threat to the
           *Endeavour*, but I have decided to press on ahead at maximum warp. With the
-          recent ramblings along the Romulan border, Starfleet could use all the
-          goodwill we can get. We're only minutes away from the station, should my
-          decision prove unwise this will be my last log entry. Due to the unknown
+          recent rumblings along the Romulan border, Starfleet could use all the
+          goodwill we can get. We're only minutes away from the station; should my
+          decision prove unwise, this will be my last log entry. Due to the unknown
           nature of the disaster that has struck the station, I have asked that all
-          potential away team members be innoculated against a wide range of
+          potential away team members be inoculated against a wide range of
           radiological hazards, starting with my senior officers. Doctor Bauer is
           performing the injections now.
 
@@ -178,10 +178,10 @@ Content:
       
 
       As the players represent the only members of the crew that received the
-      doctor's innoculation in time, they are in the unique situation of finding
-      themselves without any memories prior to dropping out of warp. As far as they
+      doctor's inoculation in time, they are in the unique situation of finding
+      themselves without any memories since dropping out of warp. As far as they
       are concerned the *Endeavour* was fine one moment and then it wasn't. Captain
-      Winchester (NPC) was not among the innoculated, and orders all stations to
+      Winchester (NPC) was not among the inoculated, and orders all stations to
       provide a Damage Report unaware of what is going on with the players.
 
 
@@ -204,7 +204,7 @@ Content:
 
           Save the questions for if we get out of this mess. I gave you an order,
           I expect you to carry it out or relieve yourself of duty! This is not
-          the time to daudle people!
+          the time to dawdle, people!
 
 
       ??? info "Conn Damage Report"
@@ -797,7 +797,7 @@ Content:
 
 
       The ship's logs are accessible, but with all the activity on the bridge there
-      isn't much time to pour through every detail. As historical research is not
+      isn't much time to pore over every detail. As historical research is not
       typically part of bridge duty, access to the historical records is
       comparatively time consuming, and excessive requests will be noticed and
       reported to the Captain, who will humor a question or two but instruct the
@@ -828,7 +828,7 @@ Content:
           goodwill we can get. We're only minutes away from the station, should my
           decision prove unwise this will be my last log entry. Due to the unknown
           nature of the disaster that has struck the station, I have asked that all
-          potential away team members be innoculated against a wide range of
+          potential away team members be inoculated against a wide range of
           radiological hazards, starting with my senior officers. Doctor Bauer is
           performing the injections now.
 
@@ -1120,7 +1120,7 @@ Content:
       None of the other Romulans are particularly talkative, as they expect the
       Klingon assault to occur any moment. Indeed, the players may only get a few
       questions answered before the lights and sounds of 6 Klingon soldiers
-      approaching. The Romulans will voice their confusion at the strange attire
+      approach. The Romulans will voice their confusion at the strange attire
       and odd choice of weapons, which to the players should seem typically
       Klingon.
 
@@ -1223,17 +1223,17 @@ Content:
 
       ??? info "Tolvar's Worries"
 
-          Tolvar will speak to anyone who will listen. He has been pouring through
+          Tolvar will speak to anyone who will listen. He has been poring through
           the experimental data while sheltering, and has come to the conclusion that
           the station's latest experiment may be breaking down the walls between
           realities.
 
 
           Most of the other scientists dispute his claims, but Tolvar is adamant that
-          the data doesn't lie. The players can attempt a **Reason + Science** Task
+          the data doesn't lie. The players can attempt a  **Reason + Science** Task
           with a Difficulty of 4 to follow Tolvar's logic. If the Task is failed or
-          not attempted, Tolvar will spend additional time explaining the data and
-          therefore reducing the time available for additional questions. In any
+          not attempted, Tolvar will spend additional time explaining the data,
+          reducing the time available for additional questions. In any
           event, the players and scientists will be convinced of the veracity of
           Tolvar's analysis.
 
@@ -1281,7 +1281,7 @@ Content:
 
 
       Communications with the *Endeavour* are not available, as the core is heavily
-      shielded against interference. A review of the station's log show that most
+      shielded against interference. A review of the station's log shows that most
       entries are irreversibly encrypted, and the controls have all been locked out.
 
 
@@ -1345,7 +1345,7 @@ Content:
       kicks the players forward in time.
   -
     separate: True
-    Title: Vucan Science Directorate T'shannaik Stellar Laboratory
+    Title: Vulcan Science Directorate T'shannaik Stellar Laboratory
     Subtitle: Finale (T + 10 Hours)
     Text: >-
       The players find themselves aboard the bridge of the *Endeavour*. Depending
@@ -1368,7 +1368,7 @@ Content:
       hail the *Endeavour*, and offer their assistance with the rescue effort.
       Despite the decades of animosity between the two nations, the Andorians seem
       earnest in their offer. The ranking Vulcan officer graciously accepts the
-      Andorian's help, and makes a point of stating that such a scenario would have
+      Andorians' help, and makes a point of stating that such a scenario would have
       been unthinkable without humanity's intervention to create the Coalition.
   -
     Subtitle: Laboratory Destroyed
@@ -1404,7 +1404,7 @@ Content:
       be directly explained, but the Vulcan Science Directorate has determined that
       any kind of travel between alternative realities is impossible. A **Reason +
       Medicine** Task with a Difficulty of 2 will reveal that it was the doctor's
-      innoculation, coupled with a fresh exposure to the strange radiation from the
+      inoculation, coupled with a fresh exposure to the strange radiation from the
       still-running experiment caused the players to experience these 'reality
       shifts'. Doctor Stolvar however suggests that it is more likely that the away
       team simply suffered hallucinations as a result of the exposure.
