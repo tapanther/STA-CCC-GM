@@ -301,6 +301,36 @@ Content:
               Room would have Section 1, as it lies entirely to starboard of the
               centerline.
 
+            - **Usage** : One capital letter denoting the primary use of the
+              compartment. The following table is borrowed heavily from the
+              Naval equivalents.
+
+              ```
+              +---+----------------------------------------------+
+              | A | Storage (Cargohold, Issue Rooms, Storerooms) |
+              +---+----------------------------------------------+
+              | C | Control (Bridge, Comm Center, Armory)        |
+              +---+----------------------------------------------+
+              | E | Engineering (Pumps, Reactors, Machinery)     |
+              +---+----------------------------------------------+
+              | F | Fuel (Deuterium/Antimatter Tanks, Propellant)|
+              +---+----------------------------------------------+
+              | K | Hazardous (Chemical/Radioactive Storage)     |
+              +---+----------------------------------------------+
+              | L | Living Quarters                              |
+              +---+----------------------------------------------+
+              | M | Ammunition (Torpedo Storage/Transport)       |
+              +---+----------------------------------------------+
+              | Q | Misc (Unmanned, Galley, Laundy, Wiring Trunk)|
+              +---+----------------------------------------------+
+              | T | Jefferies Tube                               |
+              +---+----------------------------------------------+
+              | V | Void (Empty Spaces)                          |
+              +---+----------------------------------------------+
+              | W | Water Tank                                   |
+              +---+----------------------------------------------+
+              ```
+
           This scheme is basically the same one used aboard naval vessesls, and is
           relatively easy to parse for comparative purposes. For example, if players
           are in a compartment labeled `E-120-4` and need to travel to another
@@ -308,16 +338,106 @@ Content:
           forward (120 is aft of 100), and cross over to the starboard side of the
           centerline (4 is even and therefore port, 5 is the equivalent section to
           starboard).
+
+
+      ![Vaankara Deck Layout](img/DKyr_Grid.png)
+
+      Use the diagram above to describe the approximate locations aboard the
+      *Vaankara*.
+  -
+    Table:
+      Meta:
+        Columns:
+          - Compartment
+          - Designation
+          - Note
+        Rows:
+          -
+            - Bridge
+            - 5-10-0-C
+            - >-
+              Vented to space, heavily irradiated from contaminated nebula dust.
+          -
+            - Auxiliary Control Room
+            - 10-40-0-E
+            - >-
+              Flooded with hexafluorine gas from the antipersonnel suppression
+              system.
+          -
+            - Sickbay
+            - 5-15-0-Q
+            - >-
+              Infested with *Vaankara* crew. Contains records of Trellium-D psychosis.
+          -
+            - Main Engineering
+            - 10-13-0-E
+            - >-
+              Heavily irradiated and flooded with drive coolant.
+          -
+            - Warp Nacelle Access Shafts
+            - 10-29-17-T and 10-29-18-T
+            - >-
+              Two shafts leading to the rotating nacelle.
+          -
+            - Warp Nacelle Control Room
+            - Bottom of Nacelle Ring
+            - >-
+              Several *Vaankara* crewmen roam the tubes between the access shafts and
+              the control room.
+          -
+            - Shuttlebay
+            - 7-18-0-A
+            - >-
+              Atmospheric forcefield has failed, venting the bay to space. All
+              shuttles are missing.
+          -
+            - >-
+              *Tal'Kyr* Shuttle Dock
+            - 4-23-0-Q
+            - >-
+              The *Tal'Kyr* shuttle is present, but the docking clamps are jammed and
+              the airlock is sealed shut.
+          -
+            - Armory
+            - 8-4-0-C
+            - >-
+              Nearly all the weapons are missing, several discharged rifles and
+              pistols are strewn about.
+          -
+            - Transporter Room 1
+            - 6-12-3-Q
+            - >-
+              Critically damaged. Shows signs of an obvious firefight.
+          -
+            - Transporter Room 2
+            - 11-19-10-Q
+            - >-
+              Functional but unpowered. Minor damage.
+          -
+            - Mess Hall
+            - 9-1-0-Q
+            - >-
+              Contains a large number of dead crewmen as a fight broke out over rations.
+          -
+            - Quarters
+            - Various
+            - >-
+              Crew quarters make up a large portion of the front hull section.
+          -
+            - Astrophysics
+            - 7-16-7-Q
+            - >-
+              Contains research on Trellium-D and the spatial anomalies from the expanse.
           
   -
     separate: True
     Subtitle: Scene 2
     Title: Aboard the *Vaankara*
     Text: >-
-      Once aboard, the away team will receive a signal from the *Endeavour* that
-      it has reduced speed to the safe maximum of Warp 5.4. From this moment on,
-      the away team is on its own and must complete the mission, otherwise they are
-      sure to be captured or killed by the Romulans upon entering their territory.
+      Once aboard, the away team will receive a signal from the *Endeavour* that it
+      has reduced speed to the safe maximum of Warp 5.4. From this moment on, the
+      away team is on its own and must complete the mission, otherwise they are sure
+      to be captured or killed by the Romulans upon entering their territory.
           
       
       The *Vaankara* is in a terrible state. Every compartment has some problem,
@@ -339,12 +459,12 @@ Content:
       - Several clusters of organic matter consistent with Vulcan corpses are
       detected on the scan, though the readings are unclear as to exactly how many
       bodies given the state of decomposition. Some of the clusters appear to be
-      *moving*, though the readings are highly distorted, so it is possible that
-      it is a sensor ghost.
+      *moving*, though the readings are highly distorted, so it is possible that it
+      is a sensor ghost.
 
       - The *Vaankara*'s atmosphere contains large quantities of organic volatiles
-      consistent with organic acids and solvents. Several compartments show damage
-      to the bulkheads where these compounds have eaten away at the duranium alloys
+      consistent with organic acids and solvents. Several compartments show damage to
+      the bulkheads where these compounds have eaten away at the duranium alloys
       favored by Vulcan construction.
       
       
