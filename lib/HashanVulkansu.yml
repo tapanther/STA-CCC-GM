@@ -7,15 +7,15 @@ altLinks :
   - Hashan Vulkansu
 GeneralInfo :
   Description: >-
-    The *Vaankara*, Vulcan science vessel long-thought lost to the Delphic Expanse
+    The *Vaankara*, Vulcan spaceship long-thought lost to the Delphic Expanse
     re-appears on long-range sensors traveling at high warp towards a Romulan colony.
     All attempts to contact the vessel have failed, though that is to be expected as
     the Vulcan High Command had received a transmission from the *Vaankara* showing
-    the crew killing each other violently as a result of Trellium-D induced psychosis.
-    The ship is travelling slightly too fast for the Endeavour's Warp Five engine
-    to keep up with, but it should be possible to match velocities just long enough
-    for a small away team to transport aboard and shut down the *Vaankara*'s warp
-    engines before it crosses into Romulan territory.
+    the crew killing each other violently as a result of Trellium-D induced
+    psychosis. The ship is travelling slightly too fast for the Endeavour's Warp Five
+    engine to keep up with, but it should be possible to match velocities just long
+    enough for a small away team to transport aboard and shut down the *Vaankara*'s
+    warp engines before it crosses into Romulan territory.
 #  Diagram : |
 #    ```
 #    ```
@@ -249,6 +249,66 @@ Content:
       
       If the attempt to board the *Vaankara* fails, consider playing out the court
       martial.
+  -
+    separate: True
+    Subtitle: GM Guide to the *Vaankara*
+    Title: VSA Vaankara
+    Text: >-
+      The *Vaankara* is a *D'Kyr*-Class, a multi-purpose cruiser more typically
+      suited to combat operations than scientific or exploratory missions, though
+      given the superior level of Vulcan technology *D'Kyr*-Class' scientific
+      facilities easily rival the *NX*-Class'.
+
+
+      The *Vaankara* is composed a flattened, conical hull that flares out around a
+      circular warp nacelle at the aft section. The circular nacelle can be rotated
+      into the plane of the primary hull for combat. A detachable *Tal'Kyr*
+      warp-capable shuttle docks to a hull extension inside the circular warp
+      nacelle. The vessel consists of thirteen (13) decks. The table below contains
+      a non-exhaustive list of major compartments and their approximate locations on
+      the vessel.
+
+      
+      !!! note "Vessel Coordinates"
+
+          While `deck` is well understood as the Y-axis measure for a ship, there
+          hasn't been a clear way to refer to the X and Z positions. `Bulkhead` and
+          `Section` are sometimes used, albeit inconsistently. For this and other
+          missions, the recommended scheme is as follows:
+
+            - **Deck** : Typical usage. Deck 1 is the highest deck, with increasing
+              numbers descending through the ship. A compartment that spans multiple
+              decks uses the lowest deck. For example, Main Engineering aboard an
+              *NX*-Class vessel spans Decks D and E, so it would be labeled as Deck
+              E.
+
+            - **Frame** : A vertical plane, aligned with the 'ribs' of the ship, that
+              describes the position of a compartment from fore to aft. Frame 1 is
+              the foremost position, with increasing numbers aftward through the
+              ship. The foremost bulkhead of a compartment defines the frame number.
+              For example, a compartment spanning across Frames 10, 11, 12 would bear
+              frame number 10.
+
+            - **Section** : A vertical plane perpendicular to the 'ribs' of the ship
+              which describes the distance from the centerline. Compartments that
+              span the centerline have Section 0. Compartments completely port of the
+              centerline have even section numbers (2, 4, 6), while compartments
+              starboard of the centerline have odd section numbers (1, 3, 5).
+              Increasing numbers denote a greater distance from the centerline,
+              matching the 'runners' on the ship's keel. The center-most section
+              number is used. For example, Main Engineering on an *NX*-Class vessel
+              would use Section 0, as it spans the center, while the Captain's Ready
+              Room would have Section 1, as it lies entirely to starboard of the
+              centerline.
+
+          This scheme is basically the same one used aboard naval vessesls, and is
+          relatively easy to parse for comparative purposes. For example, if players
+          are in a compartment labeled `E-120-4` and need to travel to another
+          labeled `D-100-5`, they would know to ascend one deck (E to D), head
+          forward (120 is aft of 100), and cross over to the starboard side of the
+          centerline (4 is even and therefore port, 5 is the equivalent section to
+          starboard).
+          
   -
     separate: True
     Subtitle: Scene 2
