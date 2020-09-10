@@ -16,6 +16,30 @@ GeneralInfo :
     engine to keep up with, but it should be possible to match velocities just long
     enough for a small away team to transport aboard and shut down the *Vaankara*'s
     warp engines before it crosses into Romulan territory.
+
+
+    !!! info "GM Guidance"
+
+        Note that this mission is very open ended in terms of player sequence. Part
+        of the experience will be an exploration of the *Vaankara*, and as a result,
+        the exact sequence of visited locations is not necessarily fixed. GMs are
+        encouraged to use the provided [tables of Compartment
+        Hazards](#appendix-a-compartment-complication-tables) to generate interesting
+        rooms.
+
+
+        If a more linear experience is desired, particularly for simplicity, the
+        players could be provided with additional information about the state of the
+        *Vaankara* ahead of time. For example, the early scans of the *Vaankara*
+        (either by the players or by the Tellarite vessel that detected it) could
+        have allowed the Vulcan Space Agency to prepare a plan for the away team to
+        follow. One such sample plan is provided in [Appendix B: Sample VSA
+        Plan](#appendix-b-sample-vsa-plans).
+
+
+    The mission scenes begin at [Scene 0: Introduction](#introduction). The following
+    sections provide useful information for GMs on how to run a mission aboard the
+    *Vaankara*.
 #  Diagram : |
 #    ```
 #    ```
@@ -42,6 +66,34 @@ Content:
           -
             - >-
               Secure the *Vaankara* for Salvage by the Vulcan Space Agency
+          -
+            - >-
+              If the *Vaankara* cannot be secured, complete [Additional
+              Objectives](#additional-objectives)
+  -
+    Title: Additional Objectives
+    Text: >-
+      These additional objectives are requests from the Vulcan High Council. Should
+      the *Vaankara* need to be destroyed to prevent it from entering Romulan Space,
+      the retrieval of the following items should be prioritized.
+    Table:
+      Meta:
+        Columns:
+          - Objective
+        Rows:
+          -
+            - >-
+              Retrieve any data collected about the Delphic Expanse and it's spatial
+              anomalies
+          -
+            - >-
+              Retrieve any medical data and viable samples collected on Trellium-D
+          -
+            - >-
+              Retrieve any scientific data collected on Trellium-D
+          -
+            - >-
+              Recover the *Vaankara*'s IDIC Plaque from the Bridge
   -
     separate: True
     Title: Why Not Simply Destroy the *Vaankara*?
@@ -71,25 +123,20 @@ Content:
       feel otherwise.
   -
     separate: True
-    Subtitle: GM Guide to the Vaankara
-    Title: VSA Vaankara
+    subtitle_heading: True
+    Title: GM Guide to the Vaankara
+    Subtitle: VSA Vaankara
     Text: >-
+      ![VSA Vaankara](img/dkyr_concept.png)
+
+      
       The *Vaankara* is a *D'Kyr*-Class, a multi-purpose cruiser more typically
       suited to combat operations than scientific or exploratory missions, though
       given the superior level of Vulcan technology *D'Kyr*-Class' scientific
       facilities easily rival the *NX*-Class'.
 
 
-      The *Vaankara* is composed a flattened, conical hull that flares out around a
-      circular warp nacelle at the aft section. The circular nacelle can be rotated
-      into the plane of the primary hull for combat. A detachable *Tal'Kyr*
-      warp-capable support vessel docks to a hull extension inside the circular warp
-      nacelle. The vessel consists of thirteen (13) decks. The table below contains
-      a non-exhaustive list of major compartments and their approximate locations on
-      the vessel.
-
-      
-      !!! note "Vessel Coordinates"
+      ??? note "Vessel Coordinates"
 
           While `deck` is well understood as the Y-axis measure for a ship, there
           hasn't been a clear way to refer to the X and Z positions. `Bulkhead` and
@@ -158,9 +205,18 @@ Content:
           forward (120 is aft of 100), and cross over to the starboard side of the
           centerline (4 is even and therefore port, 5 is the equivalent section to
           starboard).
+          
 
+      The *Vaankara* is composed a flattened, conical hull that flares out around a
+      circular warp nacelle at the aft section. The circular nacelle can be rotated
+      into the plane of the primary hull for combat. A detachable *Tal'Kyr*
+      warp-capable support vessel docks to a hull extension inside the circular warp
+      nacelle. The vessel consists of thirteen (13) decks. The table below contains
+      a non-exhaustive list of major compartments and their approximate locations on
+      the vessel.
   -
-    Title: >-
+    subtitle_heading: True
+    Subtitle: >-
       *Vaankara* Main Compartments
     Text: >-
         ![Vaankara Deck Layout](img/DKyr_Grid.png)
@@ -168,6 +224,11 @@ Content:
         *Tip: Open the image in a new tab or download it for a better view.*
     Table:
       Meta:
+        Admonition:
+          Collapse: True
+          Type: info
+          Title: >-
+            *Vaankara* Main Compartment Table
         Columns:
           - Compartment
           - Designation
@@ -272,12 +333,56 @@ Content:
       from simply shutting down the warp drive.
 
       
-      An additional [table of compartment complications](#compartment-complication-table)
-      is available at the end of the module for quick reference. This can be used to
-      create or subsitute hazards throughout the ship.
+      An additional [Appendix A: Tables of Compartment
+      Complications](#appendix-a-compartment-complication-tables) is available at the
+      end of the module for quick reference. This can be used to create or subsitute
+      hazards throughout the ship.
   -
     separate: True
-    Title: Taking Control of the *Vaankara*
+    subtitle_heading: True
+    Subtitle: Navigating Around the *Vaankara*
+    Text: >-
+      Moving between compartments is likely to be fraught with danger. The *Vaankara*
+      crew will attack the away team on sight, and the various environmental hazards
+      should provide quite the challenge for players.
+
+
+      To simulate the difficulty involved in traversing the ship, players should
+      encounter about one or two hazards whenever they transfer between regions of
+      the ship. If the traversal is short enough or the path has already been
+      traversed, the hazards should be skipped to prevent burnout from the players.
+      
+
+      The GM can make the journey more dynamic by presenting a choice of hazards the
+      away team can face. 
+
+      
+      !!! quote "Presenting Choices"
+
+          According to the *Vaankara* deck plans, there are two possible paths from
+          the Bridge to Main Engineering: via the turbolifts and corridors, or via
+          jefferies tubes. The former is more likely to attract the attention of the
+          *Vaankara* crew, and face atmospheric hazards like pressure differentials
+          or flooded compartments. The latter path, via jefferies tubes, is less
+          likely to encounter the crew, but significantly more likely to face energy
+          hazards, especially plasma fires and electrical discharges from co-located
+          EPS conduits.
+      
+
+      The choices need not be mutually exclusive, and can allow for a backup option
+      should the chosen method fail to provide safe passage. A journey that begun via
+      the turbolifts could quickly require a trek through jefferies tubes if the
+      lift becomes stuck between decks.
+
+
+      Additionally, players should be given the option to change their minds once
+      they are presented with a specific hazard. Away teams can and often need to
+      backtrack and find an alternate route in unknown environments, and flexibility
+      and adaptability to changing conditions is a mark of a good officer.
+  -
+    separate: True
+    subtitle_heading: True
+    Subtitle: Taking Control of the *Vaankara*
     Text: >-
       The *Vaankara* is on an automated course, determined by the ship's computer to
       the best of its ability to meet the heading locked by the ship's navigator
@@ -360,7 +465,8 @@ Content:
       several ways, each with its own risks and benefits. The following table is not a
       comprehensive list of possibilities, but simply lists out some options. Players
       should be encouraged to come up with their own method. Extended descriptions are
-      available after the table.
+      available after the table. For suggested task sequences for these plans, refer
+      to [Appendix B: Sample VSA Plans](#appendix-b-sample-vsa-plans).
     Table:
       Meta:
         Columns:
@@ -371,134 +477,15 @@ Content:
             - Shut Down Warp Core
             - Main Engineering or Auxiliary Control Room, Warp Nacelle Control
           - 
-            - Use Tal'Kyr to Collapse Field
+            - Use Tal'Kyr to Collapse Warp Field
             - Tal'Kyr Dock, Bridge or Warp Nacelle Control
-          -
-            - Unscramble Navigation Controls
-            - Primary Computer Core, Bridge 
           -
             - Eject Antimatter Pods
             - Main Engineering or Auxiliary Control Room, Antimatter Storage Control
   -
-    Subtitle: Shut Down Warp Core
-    Text: >-
-      Shutting down the warp core is the most straightforward way to stop the
-      *Vaankara*. There are a few preparatory steps that must be taken, the knowledge
-      of which is obvious to any trained engineering officer.
-
-      
-      First, the away team must secure the required compartments:
-
-      - Main Engineering or Auxiliary Control Room
-      - Warp Nacelle Control Room
-
-      
-      Once secured, the warp core's output power can be slowly lowered by manually
-      adjusting the matter/antimatter injectors. As the warp engines lose power, the
-      field will destabilize, requiring manual adjustment of the coils from within
-      the Warp Nacelle Control Room to prevent too sudden a collapse, which would
-      tear the *Vaankara* apart.
-
-
-      The primary hazards of this option come from attacks by the *Vaankara* crew,
-      which will attack the away team at both positions in waves. Since both control
-      rooms (or Main Engineering) contain a lot of sensitive equipment, weapons
-      discharges can cause extensive damage and result in new environmental hazards
-      (like coolant leaks, plasma fires, etc.). The Complication Range for energy
-      weapon shots should be quite large (15+ is recommended).
-  -
-    Subtitle: Use Tal'Kyr to Collapse Warp Field
-    Text: >-
-      One creative option would be to use the *Tal'Kyr* support vessel to interfere
-      with the *Vaankara*'s warp bubble. Although not designed to sustain a warp
-      field large enough for both vessels, the *Tal'Kyr* should be more than able
-      to gently drop both ships out of warp. One additional benefit from the players'
-      perspectives is that the *Tal'Kyr* is devoid of *Vaankara* crew, and should
-      the plan go awry, is perfectly capable of acting like a massive lifeboat
-      for the away team.
-
-
-      Unfortunately, the docking clamps are locked shut, and will need to be cut in
-      order to free the vessel. Further complicating things, the *Tal'Kyr* is meant
-      to be launched with the Warp Nacelle stowed in the horizontal position, a task
-      that is not possible while at warp. The support vessel will need to be
-      carefully piloted to thread it between the nacelle and the ship's hull. This
-      can be made slightly easier by partially rotating the nacelle out of the way
-      (which risks dangerous stresses on the hull), or by scanning ahead to find
-      a window of clear space where the *Vaankara* is not likely to encounter
-      turbulence or inteference (requiring access to the ship's sensors from the
-      bridge).
-
-
-      As suggested above, this is a relatively safe way for the away team to de-warp
-      the *Vaankara*, and it is its own backup plan, as the *Tal'Kyr* can act as a
-      lifeboat should something go wrong. Still, there is always a risk that the
-      *Vaankara*'s warp field does not collapse quickly (shaking the ship apart) or
-      at all (in which case the vessel would continue on it's path unimpeded). In
-      the latter case, the *Tal'Kyr*'s weapons might allow for a shot or two, and if
-      done at point-blank range should be enough to destroy the ship.
-  -
-    Subtitle: Unscramble the Navigational Controls
-    Text: >-
-      It will take quite the feat to unscramble the navigational subroutines and
-      regain control of the ship's heading, but it might be possible with the right
-      set of away team members. Direct access to the computer core is required, and
-      the crew will need to secure the Bridge in order to man the helm.
-
-
-      Reprogramming the computer core is nothing short of a small miracle, and it is
-      entirely possible that the away team will need to switch to an alternative
-      method, having wasted precious time.
-  -
-    Subtitle: Eject Antimatter Pods
-    Text: >-
-      Ejecting the antimatter pods is a less controlled form of reducing the warp
-      reactor's power output by suddenly depriving it of reactants. Without a gentle
-      decrease in power, the warp field will collapse very suddenly. The away team
-      should ensure that the structural integrity of the ship is boosted as much
-      as possible, preferrably by locating and reinforcing additional structural
-      weakpoints.
-  -
     separate: True
-    Title: Navigating Around the *Vaankara*
-    Text: >-
-      Moving between compartments is likely to be fraught with danger. The *Vaankara*
-      crew will attack the away team on sight, and the various environmental hazards
-      should provide quite the challenge for players.
-
-
-      To simulate the difficulty involved in traversing the ship, players should
-      encounter about one or two hazards whenever they transfer between regions of
-      the ship. If the traversal is short enough or the path has already been
-      traversed, the hazards should be skipped to prevent burnout from the players.
-      
-
-      The GM can make the journey more dynamic by presenting a choice of hazards the
-      away team can face. 
-
-      
-      For example, the path from the Bridge to Main Engineering could be done either
-      via the turbolifts and corridors, or via jefferies tube. The former is more
-      likely to attract the attention of the *Vaankara* crew, and face atmospheric
-      hazards like pressure differentials or flooded compartments. The latter path,
-      via jefferies tubes, is less likely to encounter the crew, but significantly
-      more likely to face energy hazards, especially plasma fires and electrical
-      discharges.
-      
-
-      The choices need not be mutually exclusive, and can allow for a backup option
-      should the chosen method fail to provide safe passage. A journey that begun via
-      the turbolifts could quickly require a trek through jefferies tubes if the
-      lift becomes stuck between decks.
-
-
-      Additionally, players should be given the option to change their minds once
-      they are presented with a specific hazard. Away teams can and often need to
-      backtrack and find an alternate route in unknown environments, and flexibility
-      and adaptability to changing conditions is a mark of a good officer.
-  -
-    separate: True
-    Title: Securing a Main Compartment
+    subtitle_heading: True
+    Subtitle: Securing a Main Compartment
     Text: >-
       As the [Vaankara main compartments section](#vaankara-main-compartments) shows,
       many of the mission critical compartments are inaccessible to the away team upon
@@ -511,15 +498,21 @@ Content:
 
 
       They could attempt to override the security lockout at the computer terminal by
-      the entrance (Extended **Control + Security** Task, Difficulty of 2, Work Track
-      of 12, 2 Breakthroughs required, Resistance of 2) to vent the compartment,
-      where they would be exposed and come under attack by the *Vaankara* crew while
-      they work.
+      the entrance to vent the compartment. This would be a **Control + Security**
+      Extended Task with a Difficulty of 2, Resistance 2, and a Work Track of 12. Two
+      (2) Breakthroughs are required to succeed. This option would require the away team
+      to pass through corridors patrolled by the *Vaankara* crew. The players will
+      need to work on the panel while under attack, which is not an ideal case.
 
 
-      Alternatively, they could attempt to access the environmental controls for Main
-      Engineering inside a jefferies tube, the entrance of which has a plasma fire
-      that must be put out (**Daring + Security** Difficulty 4, Complication on 17+).
+      Alternatively, the away team could attempt to access the environmental controls
+      for Main Engineering inside a jefferies tube, the entrance of which has a
+      [plasma fire](#compartment-energy-hazards) that must be put out. This is a
+      **Daring + Security** Task with a Difficulty of 4, and a Complication Range of
+      17-20. While significantly harder to pull off, the away team is unlikely to
+      come under attack as the *Vaankara* crew tend to shun the jefferies tubes. The
+      away team could attempt this route first, but failing to put out the plasma
+      fire
 
 
       In either event, clearing out the environmental hazard does not necessarily
@@ -708,7 +701,9 @@ Content:
       should be able to Succeed at a Cost. Non-optional failed Tasks should increase
       the Difficulty of the next Task downwards in the sequence. For example, *Close
       to Transporter Range* and *Locate a Suitable Beam-In Site* would both increase
-      the Difficulty of *Set the Transporter to Automatic Cycle* if failed.
+      the Difficulty of *Set the Transporter to Automatic Cycle* if failed. If the
+      final Task is failed, consider using one or more of the Transporter Complications
+      from the [standard Intercept description](#intercept-with-the-vaankara).
       
       
       If too many Tasks are failed, it is possible that the ship is unable to maintain
@@ -796,37 +791,94 @@ Content:
       injuries sustained during an all-out brawl. It is clear that the violence did
       not stop with their deaths, as all the corpses show signs of post-mortem
       dismemberment and even cannibalism.
+
+
+      At this time, it is up to the away team to determine the best course of action.
+      The Vulcan High Council has requested a [few additional
+      objectives](#additional-objectives) for the away team to complete should the
+      recovery efforts prove unsuccessful. Obviously these additional objectives are
+      automatically met if the *Vaankara* is recovered, but they might provide some
+      early destinations for the away team to visit. 
+
+
+      If the away team is unsure of how to proceed, remember that as well-trained
+      Starfleet officers, they should have a reasonable idea of how to disrupt an
+      operational warp engine, if only from being told what *not* to do. Any of
+      the [Sample VSA Plans](#appendix-b-sample-vsa-plans) should reasonably occur
+      to any member of the away team, even if it doesn't occur to the *players*.
   -
     separate: True
-    Title: Trellium-D Psychosis
+    subtitle_heading: True
+    Title: Finale
+    Subtitle: >-
+      *Vaankara* Successfully Drops out of Warp
     Text: >-
-      !!! health "Trellium-D Psychosis"
+      However it happens, the *Vaankara*'s suicidal course has finally been halted.
+      The *Endeavour* will soon catch up to the *Vaankara*, and the Vulcan recovery
+      vessel, the *V'Laarrun*, will rendezvous within the day. The ship and its
+      unfortunate survivors will finally return home to Vulcan. The crewmembers are
+      too far gone from exposure to Trellium-D to ever be successfully re-integrated
+      into society, but perhaps they will find a measure of peace at long last. 
+  -
+    subtitle_heading: True
+    Subtitle: >-
+      *Vaankara* Destroyed
+    Text: >-
+      The *Vaankara*'s signal fades out on sensors as the ship is torn apart. Any
+      remaining antimatter quickly detonates, ripping the hull apart from the inside
+      and instantly killing anyone aboard. The *V'Laarrun*, the Vulcan recovery
+      vessel, and the *Endeavour* have the somber task of combing through the
+      wreckage in the faint hopes that something or someone survived the destruction
+      of the ship, though after several hours of fruitless work the search is called
+      off. There is nothing left but space debris and ghosts, forever cursed to drift
+      aimlessly through space.
+  -
+    subtitle_heading: True
+    Subtitle: In All Cases
+    Text: >-
+      At the suggestion of the *Endeavour*'s captain, the crews of the *Endeavour*
+      and the *V'Laarrun* will hold a joint memorial service for the lost *Vaankara*
+      crew members before the crippled ship is towed back home. Nistrav, the Vulcan
+      commander leads the service from a darkened Galley.
 
-          A lethal affliction for Vulcanoids, caused by the buildup of Trellium-D
-          in the synaptic pathways. Symptoms present as a loss of emotional control,
-          irritability, rapid mood swings, which if not treated immediately result
-          in irreversible damage and madness characterized by a complete loss of
-          impulse control. The following properties describe the Biological Hazard
-          as described in the *Sciences Division Guide*.
+      
+      !!! quote "In Memoriam"
+
+          Nistrav stands before a small, spartan furnace, bathed in the primordial
+          red glow of coal embers. A number of red granite pillars ring the periphery
+          of the space cleared out for him, each bearing an inscription in Vulcan
+          of one of Surak's teachings. He is holding a small iron chalice. To his
+          right, wearing a borrowed robe, stands Captain Winchester of the *Endeavour*.
+          He is holding a small brass-colored gong.
+
+
+          "What we have experienced here today has come down from the time of the
+          beginning without change. This is the Vulcan heart. This is the Vulcan
+          soul. This is our way."
+
+
+          Nistrav gently tips the chalice forward, spilling water into the furnace.
+          the coals hiss as they are robbed of their heat. For a moment, Nistrav is
+          obscured by a crimson cloud of steam before the room is plunged deeper into
+          darkness, the coals having been fully extinguished. Only the faint glow of
+          candles illuminates the space.
 
           
-          - **Vector**: Inhalation
+          "As it was at the time of the beginning, so it is now."
 
-          - **Virulence**: 3 (Progressive 2)
 
-          - **Incubation**: 10 Minutes
+          He sets the chalice on the ground and turns to the *Endeavour*'s captain with
+          a nod. Winchester rings the gong once, and begins reciting the list of the
+          fallen:
 
-          - **Interval**: 1 Hour
 
-          - **Symptoms**:
-              - Fatigue 1
-              - Extreme Paranoia (+2 to Insight Complication Range)
-              - High Irritability (+1 to Command Tasks)
-              - Trouble Focusing (+1 Difficulty to Reason Tasks)
-              - Permanent Psychosis after 24 Hours
+          "Commander Lauk, Subcommander T'Sol, Subcommander Ivik, Major Sarrol,
+          Lieutenant Skovess, Major V'Lanath, Sublieutenant T'Raassith, Lieutenant
+          Vath, ..."
   -
     separate: True
-    Title: Compartment Complication Table
+    Title: >-
+      Appendix A: Compartment Complication Tables
     Text: >-
       The following tables contain sample complications for compartments aboard the 
       *Vaankara*. Related effects are listed according to lethality.
@@ -851,7 +903,8 @@ Content:
       environment). A hazard may even make a Task impossible (ex: lighting a fire
       in a vacuum).
   -
-    Subtitle: Energy Hazards
+    subtitle_heading: True
+    Subtitle: Compartment Energy Hazards
     Table:
       Meta:
         Columns:
@@ -896,7 +949,8 @@ Content:
               through the suit.
               
   -
-    Subtitle: Gravity Hazards
+    subtitle_heading: True
+    Subtitle: Compartment Gravity Hazards
     Table:
       Meta:
         Columns:
@@ -932,7 +986,8 @@ Content:
               crush anyone within the compartment. Prolonged exposure will lead to
               death. Immediate evacuation is of the utmost importance.
   -
-    Subtitle: Atmospheric Hazards
+    subtitle_heading: True
+    Subtitle: Compartment Atmospheric Hazards
     Table:
       Meta:
         Columns:
@@ -1016,6 +1071,200 @@ Content:
               even magnetic boots will not prevent a person from being ejected into
               space. On the *Vaankara*, this can easily result in the character being
               lost to the depths of space, never to be found again.
+  -
+    separate: True
+    Title: >-
+      Appendix B: Sample VSA Plans
+    Text: >-
+      ??? summary "Shut Down Warp Core"
+
+          Shutting down the warp core is the most straightforward way to stop the
+          *Vaankara*. There are a few preparatory steps that must be taken, the knowledge
+          of which is obvious to any trained engineering officer.
+          
+          
+          First, the away team must secure the required compartments:
+          
+          - Main Engineering or Auxiliary Control Room
+          - Warp Nacelle Control Room
+          
+          
+          Once secured, the away team can attempt a Group Challenge, consisting of two
+          main tasks: reduce warp power and maintain warp field stability.
+
+
+          The warp core's output power can be slowly lowered by manually adjusting
+          the matter/antimatter injectors. This is a **Control or Daring +
+          Engineering** Task with a Difficulty of 2 and a Complication Range of
+          18-20.
+
+          
+          As the warp engines lose power, the field will destabilize and collapse. If
+          this collapse happens too suddenly, the *Vaankara* could be torn apart. A
+          member of the away team will need to be present at the Warp Nacelle Control
+          Room in order to perform manual adjustment of the coils. This is a **Reason
+          + Science** Task with a Difficulty of 3.
+
+
+          If this task is failed, consider using a Timed Challenge to give the
+          players a chance to restore the warp field integrity before the field
+          collapses completely. Alternatively, the *Vaankara* could drop out of warp
+          and begin a series of explosive decompressions as the hull begins to
+          collapse in on itself. The players could be given a small amount of time to
+          reach an escape pod or the Tal'Kyr vessel while facing [compartment
+          hazards](#appendix-a-compartment-complication-tables) along the way.
+          
+          
+          The primary hazards of this option come from attacks by the *Vaankara* crew,
+          which will attack the away team at both positions in waves. Since both control
+          rooms (or Main Engineering) contain a lot of sensitive equipment, weapons
+          discharges can cause extensive damage and result in new environmental hazards
+          (like coolant leaks, plasma fires, etc.). The Complication Range for energy
+          weapon shots should be quite large (15+ is recommended).
+
+
+      ??? summary "Use Tal'Kyr to Collapse Warp Field"
+
+          One creative option would be to use the *Tal'Kyr* support vessel to interfere
+          with the *Vaankara*'s warp bubble. Although not designed to sustain a warp
+          field large enough for both vessels, the *Tal'Kyr* should be more than able
+          to gently drop both ships out of warp. One additional benefit from the players'
+          perspectives is that the *Tal'Kyr* is devoid of *Vaankara* crew, and should
+          the plan go awry, is perfectly capable of acting like a massive lifeboat
+          for the away team.
+
+
+          Accessing the inside of the Tal'Kyr is relatively straightforward. From the
+          Docking Port, a **Reason + Science** Task with a Difficulty of 2 can bypass
+          the command code lockout on the vessel, or a **Control + Security** Task
+          also with a Difficult of 2 can be used to trigger an emergency evacuation
+          subroutine for the same effect.
+    
+    
+          Unfortunately, the docking clamps are locked shut, and will need to be cut in
+          order to free the vessel. This is a **Control + Engineering** Task with a
+          Difficulty of 1. If appropriate cutting tools are not available, the Difficulty
+          increases by 1. Cutting tools can be found in Main Engineering, or another
+          suitable compartment.
+
+
+          Further complicating things, the *Tal'Kyr* is meant to be launched with the
+          Warp Nacelle stowed in the horizontal position, a task that is not possible
+          while at warp. The support vessel will need to be carefully piloted to
+          thread it between the nacelle and the ship's hull. By default, this will be
+          a **Daring + Conn** Task with a Difficulty of 5, but there are ways to
+          lower the difficulty.
+
+
+          By partially rotating the nacelle ring out of the way, the window through
+          which the *Tal'Kyr* can be piloted safely grows. This will lower the
+          Difficulty of the piloting task by 2, but it increases the complication
+          range by 2 (18-20) as the nacelle is not meant to be rotated while at warp.
+          The rotation can be performed from the Warp Nacelle Control Room with a
+          **Daring + Engineering** Task with a Difficulty of 1, and a Complication
+          Range of 19-20, to bypass the safety interlocks.
+
+
+          Additionally, the difficulty can be further lowered by scanning ahead to
+          find a window of "smooth" space where the *Vaankara* is not likely to
+          encounter turbulence or inteference from passing stellar bodies. This
+          scan can be performed from any suitable control compartment (Bridge,
+          Auxiliary Control Room, Astrometrics, etc.) by passing a **Reason +
+          Science** Task with a Difficulty of 1.
+    
+    
+          As suggested above, this is a relatively safe way for the away team to de-warp
+          the *Vaankara*, and it is its own backup plan, as the *Tal'Kyr* can act as a
+          lifeboat should something go wrong. Still, there is always a risk that the
+          *Vaankara*'s warp field does not collapse quickly (shaking the ship apart) or
+          at all (in which case the vessel would continue on it's path unimpeded). In
+          the latter case, the *Tal'Kyr*'s weapons might allow for a shot or two, and if
+          done at point-blank range should be enough to destroy the ship.
+
+
+      ??? summary "Eject Antimatter Pods"
+
+          Ejecting the antimatter pods is a less controlled form of reducing the warp
+          reactor's power output by suddenly depriving it of reactants. Without a gentle
+          decrease in power, the warp field will collapse very suddenly, so this may be
+          a plan of last-resort. A **Reason + Engineering** Task with a Difficulty of
+          1 will reveal that there is at best a 50% chance that the *Vaankara* will
+          survive such a drastic fall out of warp. Anyone aboard the *Vaankara* will
+          be killed if the structure collapses.
+
+
+          The away team should ensure that the structural integrity of the ship is
+          boosted as much as possible, preferrably by locating and reinforcing
+          additional structural weakpoints (GM's discretion).
+
+
+          From the Antimatter Storage Control, a **Daring + Engineering** Task with a
+          Difficulty of e can be used to trigger the ejection mechanism. This will
+          immediately eject the antimatter pods. The warp drive will then have a few
+          seconds (about a Task's worth) of residual power before the field
+          collapses. 
+
+
+          It might be wise for the crew to set the ejection system on a timer (+1
+          Difficulty and +2 Complication Range, as it must be jury-rigged) so that
+          they can escape via the *Tal'Kyr* or an escape pod before the ship tumbles
+          out of warp.
+
+
+          However it happens, roll 1D6. On an even number, the *Vaankara*'s hull will
+          begin to collapse. The away team may be given a chance to escape the *Vaankara*
+          via escape pod (if they haven't already), but failure almost certainly means
+          death.
+  -
+    separate: True
+    Title: >-
+      Appendix C: Trellium-D
+    Text: >-
+      Trellium-D is a naturally occurring mineral that was used to insulate a ship's
+      hull from the effects of the spatial anomalies within the Delphic Expanse.
+
+
+      Trellium is also a deadly neurotoxin to Vulcanoids, a fact that was tragically
+      discovered by the crews of the *Vaankara* and the *Seleya*, though only the
+      former had been confirmed. 
+
+
+      !!! health "Trellium-D Psychosis"
+
+          A lethal affliction for Vulcanoids, caused by the buildup of Trellium-D
+          in the synaptic pathways. Symptoms present as a loss of emotional control,
+          irritability, rapid mood swings, which if not treated immediately result
+          in irreversible damage and madness characterized by a complete loss of
+          impulse control. The following properties describe the Biological Hazard
+          as described in the *Sciences Division Guide*.
+
+          
+          - **Vector**: Inhalation
+
+          - **Virulence**: 3 (Progressive 2)
+
+          - **Incubation**: 10 Minutes
+
+          - **Interval**: 1 Hour
+
+          - **Symptoms**:
+              - Fatigue 1
+              - Extreme Paranoia (+2 to Insight Complication Range)
+              - High Irritability (+1 to Command Tasks)
+              - Trouble Focusing (+1 Difficulty to Reason Tasks)
+              - Permanent Psychosis after 24 Hours
+
+
+      The *Vaankara*'s Sickbay contains records from the ship's physician detailing
+      the crews rapid downfal into psychosis, as well as detailed scans of crew members
+      at various stages of affliction.
+
+
+      The *Vaankara*'s Astrophysics Lab has experimental data about Trellium-D, and its
+      protective properties against some forms of spatial anomalies. Alternatively, if
+      the Computer Core can be accessed, sensor data from the Expanse can be downloaded,
+      which includes scans of the anomalies.
+
 #    Diagram: |
 #      ```
 #      ```
