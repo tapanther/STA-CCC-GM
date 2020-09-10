@@ -188,7 +188,7 @@ Content:
               +---+----------------------------------------------+
               | M | Ammunition (Torpedo Storage/Transport)       |
               +---+----------------------------------------------+
-              | Q | Misc (Unmanned, Galley, Laundy, Wiring Trunk)|
+              | Q | Misc (Unmanned, Galley, Laundry, Wiring Trunk)|
               +---+----------------------------------------------+
               | T | Jefferies Tube                               |
               +---+----------------------------------------------+
@@ -198,7 +198,7 @@ Content:
               +---+----------------------------------------------+
               ```
 
-          This scheme is basically the same one used aboard naval vessesls, and is
+          This scheme is basically the same one used aboard naval vessels, and is
           relatively easy to parse for comparative purposes. For example, if players
           are in a compartment labeled `E-120-4` and need to travel to another
           labeled `D-100-5`, they would know to ascend one deck (E to D), head
@@ -248,7 +248,7 @@ Content:
             - Primary Computer Core
             - 8-5-0-C
             - >-
-              Overpressurized with fire suppressant gas, explosion hazard.
+              Over pressurized with fire suppressant gas, explosion hazard.
           -
             - Sickbay
             - 5-15-0-Q
@@ -268,7 +268,7 @@ Content:
             - Warp Nacelle Control Room
             - Bottom of Nacelle Ring
             - >-
-              Contains *Vaankara* crewmembers.
+              Contains *Vaankara* crew members.
           -
             - Antimatter Storage Control Room
             - 12-20-9-F and 12-20-10-F
@@ -327,7 +327,7 @@ Content:
               Misaligned, occasional radiation burst as cosmic dust impacts hull.
   -
     Text: >-
-      Players should have rought schematic diagrams for the vessel from the Vulcan
+      Players should have rough schematic diagrams for the vessel from the Vulcan
       Database, so it is not unreasonable for them to pick a good beam-in point. All
       of the key compartments have an environmental effect that should prevent players
       from simply shutting down the warp drive.
@@ -335,7 +335,7 @@ Content:
       
       An additional [Appendix A: Tables of Compartment
       Complications](#appendix-a-compartment-complication-tables) is available at the
-      end of the module for quick reference. This can be used to create or subsitute
+      end of the module for quick reference. This can be used to create or substitute
       hazards throughout the ship.
   -
     separate: True
@@ -395,11 +395,11 @@ Content:
 
       There are several ways the *Vaankara* can be stopped. The primary impediments
       to the away team's mission are the various dangers aboard the *Vaankara*, ranging
-      from the vessel's compromised environment to the psychotic surviving crewmembers.
+      from the vessel's compromised environment to the psychotic surviving crew members.
       
 
       From the *Endeavour*, the crew can attempt a **Insight + Engineering** Task
-      assissted by the ship's **Sensors + Engineering** with a Difficulty of 2 to
+      assisted by the ship's **Sensors + Engineering** with a Difficulty of 2 to
       determine the state of the *Vaankara*'s systems. If the Task is successful, the
       engineering analysis reveals the hazards located on the Bridge, Auxiliary
       Control Room, and Main Engineering as denoted in the [Vaankara main
@@ -427,7 +427,7 @@ Content:
 
       
       Once aboard the *Vaankara*, a similar **Insight + Engineering** Task with a 
-      Difficulty of 2 can reval the same information, if it was not acquired before
+      Difficulty of 2 can reveal the same information, if it was not acquired before
       boarding.
 
 
@@ -520,12 +520,12 @@ Content:
       and mount an attack. Despite their psychosis, the crew have not lost their
       intelligence, and are perfectly capable of using the *Vaankara*'s systems
       against the away team. For example, they could release a toxic substance through
-      the ventillation system, or they could attempt to overload a nearby EPS conduit
+      the ventilation system, or they could attempt to overload a nearby EPS conduit
       to blow a hole through the bulkhead, allowing them access into the compartment.
 
 
       As a rule of thumb, the players should feel a constant pressure to move on and
-      avoid staying in any one location for too long. A lone crewmember might discover
+      avoid staying in any one location for too long. A lone crew member might discover
       them within minutes, and create enough of a ruckus to attract several others,
       which can quickly outnumber and overwhelm the away team.
   -
@@ -601,12 +601,12 @@ Content:
       compartment, like the Bridge or Main Engineering, but those compartments have
       highly hazardous environments that will necessitate an immediate evacuation
       (see [the *Vaankara* compartment table](#vsa-vaankara)). A **Reason + Science
-      or Medicine** Task assissted by the ship's **Sensors + Science** with a
+      or Medicine** Task assisted by the ship's **Sensors + Science** with a
       Difficulty of 1 will reveal that major portions of the ship are badly damaged
       and all critical areas of the ship show hazardous conditions. For each Momentum
       spent to Obtain Information, the players can get information about one
       compartment or zone aboard the *Vaankara* from the [the *Vaankara* compartment
-      table](#vsa-vaankara). Note that the crewmembers should *not* be recognized
+      table](#vsa-vaankara). Note that the crew members should *not* be recognized
       by the sensors as Vulcan, but should read as indeterminate humanoid life-forms.
 
 
@@ -816,7 +816,7 @@ Content:
       However it happens, the *Vaankara*'s suicidal course has finally been halted.
       The *Endeavour* will soon catch up to the *Vaankara*, and the Vulcan recovery
       vessel, the *V'Laarrun*, will rendezvous within the day. The ship and its
-      unfortunate survivors will finally return home to Vulcan. The crewmembers are
+      unfortunate survivors will finally return home to Vulcan. The crew members are
       too far gone from exposure to Trellium-D to ever be successfully re-integrated
       into society, but perhaps they will find a measure of peace at long last. 
   -
@@ -943,7 +943,7 @@ Content:
             - 10 dC, Lethal, Piercing 4, Intense, Vicious 1
             - >-
               A ruptured plasma conduit has flooded the compartment with lethal drive
-              plasma. The superheated matter instantly burns whatever it contacts.
+              plasma. The super heated matter instantly burns whatever it contacts.
               The crew's EV suits will offer some protection, preventing the hazard
               from being immediately lethal, but the plasma will still quickly burn
               through the suit.
@@ -1050,7 +1050,7 @@ Content:
               A hydrogen line or other volatile fluid pipe can quickly fill a room
               with an explosive mixture of oxygen and fumes. Some mixtures can
               spontaneously detonate, while others require a source of energy (such
-              as a spark, exposed flame, or energy weapon discharge) to ignire.
+              as a spark, exposed flame, or energy weapon discharge) to ignite.
           -
             - Hard Vacuum
             - >-
@@ -1167,7 +1167,7 @@ Content:
 
           Additionally, the difficulty can be further lowered by scanning ahead to
           find a window of "smooth" space where the *Vaankara* is not likely to
-          encounter turbulence or inteference from passing stellar bodies. This
+          encounter turbulence or interference from passing stellar bodies. This
           scan can be performed from any suitable control compartment (Bridge,
           Auxiliary Control Room, Astrometrics, etc.) by passing a **Reason +
           Science** Task with a Difficulty of 1.
@@ -1194,8 +1194,8 @@ Content:
 
 
           The away team should ensure that the structural integrity of the ship is
-          boosted as much as possible, preferrably by locating and reinforcing
-          additional structural weakpoints (GM's discretion).
+          boosted as much as possible, preferably by locating and reinforcing
+          additional structural weak points (GM's discretion).
 
 
           From the Antimatter Storage Control, a **Daring + Engineering** Task with a
@@ -1256,7 +1256,7 @@ Content:
 
 
       The *Vaankara*'s Sickbay contains records from the ship's physician detailing
-      the crews rapid downfal into psychosis, as well as detailed scans of crew members
+      the crews rapid downfall into psychosis, as well as detailed scans of crew members
       at various stages of affliction.
 
 
