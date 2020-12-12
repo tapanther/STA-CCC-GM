@@ -1,0 +1,935 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <link rel="canonical" href="https://tapanther.github.io/STA-CCC-GM/Phantasms/">
+      
+      
+      <link rel="shortcut icon" href="../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.4.0">
+    
+    
+      
+        <title>Phantasms (Mission 8)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.fe0cca5b.min.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a46bcfb3.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets_lib/uml.css">
+    
+      <link rel="stylesheet" href="../stylesheets/custom_admonitions.css">
+    
+    
+      
+    
+    
+
+
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#phantasms-mission-8" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://tapanther.github.io/STA-CCC-GM/" title="STA:CCC (GM)" class="md-header-nav__button md-logo" aria-label="STA:CCC (GM)">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.19 14.19L6 18l3.81-8.19L18 6m-6-4A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10A10 10 0 0012 2m0 8.9a1.1 1.1 0 00-1.1 1.1 1.1 1.1 0 001.1 1.1 1.1 1.1 0 001.1-1.1 1.1 1.1 0 00-1.1-1.1z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            STA:CCC (GM)
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Phantasms (Mission 8)
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/tapanther/STA-CCC-GM/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tapanther/STA-CCC-GM
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+
+
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://tapanther.github.io/STA-CCC-GM/" title="STA:CCC (GM)" class="md-nav__button md-logo" aria-label="STA:CCC (GM)">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.19 14.19L6 18l3.81-8.19L18 6m-6-4A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10A10 10 0 0012 2m0 8.9a1.1 1.1 0 00-1.1 1.1 1.1 1.1 0 001.1 1.1 1.1 1.1 0 001.1-1.1 1.1 1.1 0 00-1.1-1.1z"/></svg>
+
+    </a>
+    STA:CCC (GM)
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/tapanther/STA-CCC-GM/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tapanther/STA-CCC-GM
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      General
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="General" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        General
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Timeline/" title="Timeline" class="md-nav__link">
+      Timeline
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Missions
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Missions" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Missions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Phantasms (Mission 8)
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Phantasms (Mission 8)" class="md-nav__link md-nav__link--active">
+      Phantasms (Mission 8)
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    Recommendations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#directives" class="md-nav__link">
+    Directives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opening-log-entry" class="md-nav__link">
+    Opening Log Entry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#major-beats" class="md-nav__link">
+    Major Beats
+  </a>
+  
+    <nav class="md-nav" aria-label="Major Beats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-thritsian-mind-weasel" class="md-nav__link">
+    The Thritsian Mind Weasel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intruder-alert-in-the-cargo-bay" class="md-nav__link">
+    Intruder Alert in the Cargo Bay
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intruder-alert-in-the-maco-training-center" class="md-nav__link">
+    Intruder Alert in the MACO Training Center
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dead-in-the-water" class="md-nav__link">
+    Dead in the Water
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minor-beats" class="md-nav__link">
+    Minor Beats
+  </a>
+  
+    <nav class="md-nav" aria-label="Minor Beats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lax-security-measures" class="md-nav__link">
+    Lax Security Measures
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-weapons" class="md-nav__link">
+    Missing Weapons
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-items" class="md-nav__link">
+    Missing Items
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-persons-and-pets" class="md-nav__link">
+    Missing Persons and Pets
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-npcs" class="md-nav__link">
+    Key NPCs
+  </a>
+  
+    <nav class="md-nav" aria-label="Key NPCs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#richard-parker-jollie" class="md-nav__link">
+    Richard Parker Jollie
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../TimeSkip/" title="Time Skips (Mission 5)" class="md-nav__link">
+      Time Skips (Mission 5)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../HashanVulkansu/" title="Wuh Hashan Vulkansu" class="md-nav__link">
+      Wuh Hashan Vulkansu
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Categories
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Categories" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Categories
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../General/" title="General" class="md-nav__link">
+      General
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Missions/" title="Missions" class="md-nav__link">
+      Missions
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    Recommendations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#directives" class="md-nav__link">
+    Directives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opening-log-entry" class="md-nav__link">
+    Opening Log Entry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#major-beats" class="md-nav__link">
+    Major Beats
+  </a>
+  
+    <nav class="md-nav" aria-label="Major Beats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-thritsian-mind-weasel" class="md-nav__link">
+    The Thritsian Mind Weasel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intruder-alert-in-the-cargo-bay" class="md-nav__link">
+    Intruder Alert in the Cargo Bay
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intruder-alert-in-the-maco-training-center" class="md-nav__link">
+    Intruder Alert in the MACO Training Center
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dead-in-the-water" class="md-nav__link">
+    Dead in the Water
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minor-beats" class="md-nav__link">
+    Minor Beats
+  </a>
+  
+    <nav class="md-nav" aria-label="Minor Beats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lax-security-measures" class="md-nav__link">
+    Lax Security Measures
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-weapons" class="md-nav__link">
+    Missing Weapons
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-items" class="md-nav__link">
+    Missing Items
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-persons-and-pets" class="md-nav__link">
+    Missing Persons and Pets
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-npcs" class="md-nav__link">
+    Key NPCs
+  </a>
+  
+    <nav class="md-nav" aria-label="Key NPCs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#richard-parker-jollie" class="md-nav__link">
+    Richard Parker Jollie
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+
+
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/tapanther/STA-CCC-GM/edit/master/docs/Phantasms.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="phantasms-mission-8">Phantasms (Mission 8)<a class="headerlink" href="#phantasms-mission-8" title="Permanent link">&para;</a></h1>
+<hr />
+<h3 id="recommendations">Recommendations<a class="headerlink" href="#recommendations" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Suggested era : Enterprise (or Any)</li>
+<li>Suggested spotlight role : Security Officer or Operations Manager</li>
+</ul>
+<h3 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h3>
+<p>The ship experiences a series of mysterious system failures and unlikely intruder reports as it races against time to deliver a group of refugees.</p>
+<p>Due to the ongoing war, the <em>Endeavour</em> is expected back at the front within 48 hours. The ship will require 12 hours at Starbase 4 in order to disembark the refugees and resupply. The ship is currently 8 hours away from the starbase.</p>
+<p>At first, the time limit should not feel remotely onerous, as there are a spare 36 hours between the ship's scheduled arrival and the necessary time to disembark and resupply. Partway into the mission however, the ship will experience a full loss of warp capabilities, suddenly putting the crew in a race against the clock.</p>
+<p>Unbeknownst to the crew, a small alien creature being sold as a pet by a stowaway merchant has escaped and is running around loose in the ship. At first the creature was harmless, but as it chews through the ship's ODN network and uses its hallucination-inducing powers to evade perceived threats, the crew will be left wondering if the entire thing is a matter or unfortunate coincidence or a deliberate (if somewhat strange) attempt at sabotage.</p>
+<p>A time tracker should be set up to help the players visualize the amount of time remaining in the mission, along with key events. Major undertakings should cost increments of time and be denoted on the time tracker appropriately. For example, the <em>Arrival at Starbase 4</em> event should be placed at <code>T + 8 Hr</code> at the start of the mission. A four hour task started at <code>T + 2 Hr</code> should be placed at <code>T + 6 Hr</code>, and so on.</p>
+<p>The recommended time interval for the tracker is two hours. Trivial tasks (inspect a single hatch, scan a single room) can be done at no time cost, while longer tasks should take one or more two-hour increments (a quick security sweep of one deck can take four hours, a full security sweep of one deck can take twelve hours). Tasks that will reveal critical information about the creature (ex: laboratory work of saliva/urine samples, etc.) should take one or more time intervals before the results are available.</p>
+<p>Each time interval can hold one or more scenes (though one is suggested). When all outstanding tasks for that interval are done (and new tasks scheduled to complete at a future time), the GM can move time forward to the next scheduled event and start a new scene. Major GM-introduced events should be scheduled secretly.</p>
+<h2 id="directives">Directives<a class="headerlink" href="#directives" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left">Directive</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Do Not Reveal Information About the Romulans.</td>
+</tr>
+<tr>
+<td align="left">Depart Starbase 4 on Schedule</td>
+</tr>
+<tr>
+<td align="left">[Hidden] Locate the Intruder Reported in the Cargo Bay</td>
+</tr>
+<tr>
+<td align="left">[Hidden] Locate the Missing Thritsian Mind Weasel</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="opening-log-entry">Opening Log Entry<a class="headerlink" href="#opening-log-entry" title="Permanent link">&para;</a></h2>
+<div class="admonition quote">
+<p class="admonition-title">Captain's Log: Stardate 2156.12</p>
+<p>Following the surprise attack upon our colonies by the Romulan Star Empire,
+the <em>Endeavour</em> is enroute to Starbase 4 to drop off some hundred-fifty-odd
+refugees picked up from installations around the Gamma Hydrae System. We
+expect to arrive in approximately 8 hours. Needless to say, the crew is
+anxious to get their own quarters back after doubling up for the past few
+days.</p>
+<p>Aside from a few electrical anomalies over the past few hours, the journey
+has been uneventful. The Romulans appear to be focused on securing the
+territory they've captured, though Starfleet Command expects a new Romulan
+assault within the next few days. For this reason, it is imperative that
+the <em>Endeavour</em> be ready to depart Starbase 4 within 48 hours. Since it
+will only take 12 of those hours to resupply the <em>Endeavour</em> and disembark
+our passengers, there shouldn't be any issues.</p>
+</div>
+<hr />
+<h2 id="major-beats">Major Beats<a class="headerlink" href="#major-beats" title="Permanent link">&para;</a></h2>
+<h3 id="the-thritsian-mind-weasel">The Thritsian Mind Weasel<a class="headerlink" href="#the-thritsian-mind-weasel" title="Permanent link">&para;</a></h3>
+<p>A small rodent-like creature from the far reaches of the quadrant, the Thritsian Mind Weasel is a shy, omnivorous creature not unlike an earth ferret. Gifted with an intense curiosity, a penchant for mischief, and instinctual psychic abilities that directly target the fear center of the brain, the Thritsian Mind Weasel is perfectly capable of wreaking unintentional havoc aboard a high-strung starship.</p>
+<p>The weasel was brought aboard by Richard Jollie, a stowed away smuggler and swindler. The small rodent escaped Mr. Jollie's coat, leaving a noticeable hole in the pocket where it was kept.</p>
+<p>The weasel is too small to be reliably picked up by internal scanners, which are just as likely to report any of the other missing pets. Further complicating matters, the creature is of unknown origin and species, as it comes from a world yet unknown to Starfleet, and the Vulcan Database does not contain a full genetic makeup of non-sentient species. The rodent should make it's presence known by a series of stolen items, strange system failures caused by its attempts to snack on the ODN network of the ship, and the occasional hallucination by a crewmember or refugee, which often takes the shape of a threatening or mysterious figure that compels the victim to divert all attention away from the small, scurrying pink fluffball racing across the deck.</p>
+<p>With sufficient samples and time, hand scanners may be able to pick up the creature reliably, eventually locating it hidden away in some jefferies tube or other remote location where it has started to nest. The nest will contain any and all stolen items.</p>
+<h3 id="intruder-alert-in-the-cargo-bay">Intruder Alert in the Cargo Bay<a class="headerlink" href="#intruder-alert-in-the-cargo-bay" title="Permanent link">&para;</a></h3>
+<div class="admonition quote">
+<p class="admonition-title">Intruder Alert!</p>
+<p>Cargo Bay 1 to Bridge, Intruder Alert! Unknown figure just took off towards
+the Transporter Room after attempting to access an environmental
+maintenance panel. Requesting security teams be dispatched.</p>
+</div>
+<p>Ensign Tavish Zemke, a junior planetary scientist reassigned to keep an eye out on the refugees in Cargo Bay 1 (Deck D, Starboard) reports seeing a humanoid figure bent over an open environmental control maintenance panel. He did not get a good look at the figure before it took off. The rest of the refugees have mixed accounts, some reporting seeing a figure of wildly variable descriptions while the rest deny seeing anyone. The Transporter Room will report nothing out of the ordinary, and a life signs scan reveals no unexpected life signs, though it is possible the intruder escaped detection by hiding among other refugees or switching decks before the crew could react.</p>
+<p>An inspection of the indicated environmental control panel reveals some light scratching on the <em>inside</em> of the hatch cover, as well as frayed ODN (fiber optic) strands. They appear to have been cut with a relatively blunt instrument, and may show unidentified organic traces when scanned. Processing the organic samples reveals it to be saliva.</p>
+<h3 id="intruder-alert-in-the-maco-training-center">Intruder Alert in the MACO Training Center<a class="headerlink" href="#intruder-alert-in-the-maco-training-center" title="Permanent link">&para;</a></h3>
+<div class="admonition quote">
+<p class="admonition-title">Intruder Alert!</p>
+<p>Bridge, Crewman Nakada reporting a suspicious person leaving the MACO
+training facility. What should I do?</p>
+</div>
+<p>Crewman Hiro Nakada spotted a humanoid alien leaving the MACO Training Room on Deck F. He believes the figure could be Klingon, judging by the armor and stature, but the figure manages to turn the next corner every time Nakada manages to catch up. No anomalous life signs will be reported, with Crewman Nakada the only one in the corridors. If pressed, the Crewman will stress their certainty at having seen a figure.</p>
+<p>Inspecting the MACO training room will reveal that the compartment doors are faulty, opening and closing by themselves randomly, due to an intermittent short circuit caused by more frayed ODN fibers.</p>
+<h3 id="dead-in-the-water">Dead in the Water<a class="headerlink" href="#dead-in-the-water" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Note: This event should be introduced by the GM at some point before the ship's scheduled arrival.</p>
+</blockquote>
+<div class="admonition quote">
+<p class="admonition-title">That's Strange...</p>
+<p>Bridge, Engineering. Can we reduce speed to Warp 4.4? I'm picking up a
+variance in the Warp Field Governor, I'd like to run a Level 2 diagnostic
+but I can't do that at our current speed.</p>
+</div>
+<p>Moments after the engineering report, the Helm will report that the warp factor is dropping at an accelerated rate (<em>"Warp 4.4, 4.2, 4.0, 3.6, 3.2, Warp 2, Warp 1"</em>) before the entire ship lurches forward as it drops out of warp.</p>
+<div class="admonition quote">
+<p class="admonition-title">We Have a Problem...</p>
+<p>Bridge, the Warp Field Governor is offline! I'm seeing a complete system
+failure, including the auxiliaries. I had to take the reactor offline to
+prevent spreading us across several parsecs.</p>
+</div>
+<p>A thorough inspection of the governor will reveal that the Plasma Regulator Manifold Control Logic Board has been ripped out of it's socket. While a new control board can be fabricated, it will take at least three days to manufacture and calibrate the replacement.</p>
+<p>Unless the original can be found, the Endeavour will miss its deadline by days. Remove the <em>Arrival at Starbase 4</em> event from the tracker. Add the <em>Latest On-Time Arrival at Starbase 4</em> event to the tracker at the <code>T + 24 Hr</code> mark. If this timed event is passed, the mission is a failure, as the <em>Endeavour</em> will fail to reach its destination in time. Note that this is not necessarily the end of the mission, as now the main task is to minimize additional delay.</p>
+<p>The control board was indeed stolen by the errant would-be pet, as it has a strange affinity for hoarding random items. Once the creature is found, the control board will be among the creature's hoard.</p>
+<hr />
+<h2 id="minor-beats">Minor Beats<a class="headerlink" href="#minor-beats" title="Permanent link">&para;</a></h2>
+<h3 id="lax-security-measures">Lax Security Measures<a class="headerlink" href="#lax-security-measures" title="Permanent link">&para;</a></h3>
+<p>Thorough inspections of any Deck or Compartment will reveal improperly secured maintenance hatches, unsealed jefferies tube access shafts, left behind equipment, and a general lax attitude towards typical security measures. Any of these could serve as potential sabotage points or provide escape routes for the reported intruders. Of particular note, some of these maintenance hatches may show signs of ODN damage caused by the missing rodent, or may have organic residues left behind (saliva, hair follicles, urine, etc.) consistent with the rodent's presence.</p>
+<h3 id="missing-weapons">Missing Weapons<a class="headerlink" href="#missing-weapons" title="Permanent link">&para;</a></h3>
+<p>Should a full inventory of the ship's small arms lockers and armory be undertaken, the quartermaster (Minerva Voight) will issue an alarm, reporting 5 Phase Pistols, 2 Detonator Caps (for demolition explosives), and 1 MACO Plasma Rifle missing from the ship's stores. The detonator caps are especially worrying, as they could be used to detonate or damage far more lethal targets, including the ship's photonic torpedoes or antimatter storage pods.</p>
+<p>The inventory logs do not match with the manual inspection, though it is unclear when these weapons disappeared, as the last full inventory was conducted over two weeks ago, and security personnel access the small arms lockers on a daily basis.</p>
+<p>Given the various intruder reports, as well as the quartermaster's own suspicious nature, these discrepancies should appear to have been deliberate thefts. In reality, these inventory discrepancies are simply the result of poor record keeping, as the weapons were left behind or misplaced during various missions throughout the evacuation.</p>
+<h3 id="missing-items">Missing Items<a class="headerlink" href="#missing-items" title="Permanent link">&para;</a></h3>
+<p>In addition to the Warp Field Governor's control board, the rodent has stolen a variety of items from around the ship. There should be no rhyme or reason to the stolen items, though likely candidates for theft include hypospray cartridges from Sickbay, rank insignia from various officers, family mementos from crew and refugees, ODN repeaters (leading to minor system failures and engineering anomalies), and other small items that might attract the attention of the creature.</p>
+<h3 id="missing-persons-and-pets">Missing Persons and Pets<a class="headerlink" href="#missing-persons-and-pets" title="Permanent link">&para;</a></h3>
+<p>As the evacuations were chaotic, there is not a clear manifest of who and what exactly made it onboard. Rough lists were compiled, giving an approximate count of 152 refugees and dozens of cherished pets, but the lists are inaccurate and contradictory. With the refugees distributed throughout quarters and cargo bays and restricted to their temporary accommodations, there have been several reports of missing persons (who may have been routed to different ships or gotten separated in the chaos) and animals (often small creatures taken out of their enclosures by well-meaning children).</p>
+<hr />
+<h2 id="key-npcs">Key NPCs<a class="headerlink" href="#key-npcs" title="Permanent link">&para;</a></h2>
+<h3 id="richard-parker-jollie">Richard Parker Jollie<a class="headerlink" href="#richard-parker-jollie" title="Permanent link">&para;</a></h3>
+<p>Richard Parker Jollie (<em>"Founder, CEO, and President of the Jolly Trading and Curiosities Emporium, Limited"</em> as he will introduce his one-man smuggling operation), a silver-tongued independent trader and sometimes-swindler hiding out aboard Shuttlepod One.</p>
+<p>Mr. Jollie snuck into the launch bay during the chaos of the evacuation (<em>"I've done the math! There's not enough escape pods and shuttle pods for everyone onboard, so this is officially the safest place to be. After all, you wouldn't throw a poor, pitiful man out if he happened to already be aboard... You wouldn't!"</em>), taking several of his knick knacks and curiosities with him, one of which was the Thritsian mind weasel that escaped from his coat.</p>
+<hr />
+<h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
+<p>If the crew manages to find the Thritsian mind weasel with enough time to arrive at Starbase 4 before the deadline, the mission is a complete success.</p>
+<p>The difficulty of achieving this however is entirely up to the GM, who can provide as much or as little bonus information along the way to adjust for player progress. For example, if the crew fails to investigate hatches or find evidence of the rodent, a crew member might report having seen a small furry creature scurrying about before being attacked by a hallucinated assailant. If the crew immediately picks up on the rodent's existence, the furry creature could remain out of sight, with only the occasional hallucination popping up.</p>
+<p>The hallucinations provide an excellent distraction for the players, as they may need to reassure panic-gripped refugees that there are no alien raiders aboard, and could lead to fights (or even riots) breaking up as disjoint groups of refugees blame each other for stolen items or hallucinated attacks.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+
+      <!-- Social links -->
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.d710d30a.min.js"></script>
+      <script src="../assets/javascripts/bundle.b39636ac.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.a68abb33.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="../js_lib/uml.js"></script>
+      
+        <script src="../js_lib/mermaid.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.13.0/flowchart.min.js"></script>
+      
+    
+  </body>
+</html>
