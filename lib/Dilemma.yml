@@ -1,0 +1,199 @@
+---
+node : Missions
+template : Generic.md
+title : Dilemma (Mission 10)
+altLinks :
+  - Dilemma
+GeneralInfo :
+  AddInfo:
+    Recommendations:
+        Suggested Era: Enterprise (or Any)
+        Suggested Spotlight Role: CO or XO
+  Description: >-
+    Starfleet has intercepted a Romulan distress call from the Epsilon Legato system.
+    A Bird-of-Prey encountered engine trouble and was forced to land on a Class-Y
+    planet. With time ticking as the ship's hull is slowly eaten away by the corrosive
+    atmosphere, the crew is ordered to retrieve as much information from the Romulan
+    vessel as possible. Unbeknownst to the crew, a Romulan vessel has received the
+    distress call too, and is itself underway to Epsilon Legato.
+#  Diagram : |
+#    ```
+#    ```
+Content:
+  -
+    Title: Directives
+    Table:
+      Meta:
+        Columns:
+          - Directive
+        Rows:
+          -
+            - >-
+              Do Not Reveal Information About the Romulans.
+          -
+            - >-
+              Retrieve as much information from the damaged Romulan Vessel as possible
+          -
+            - >-
+              Depart the system before the rescue vessel enters the system
+          -
+            - >-
+              [Hidden] Capture the Romulan crew
+          -
+            - >-
+              [Hidden] Neutralize the Romulan ship
+  -
+    separate: True
+    Title: Opening Log Entry
+    Text: >-
+      !!! quote "Captain's Log: Stardate 2157.1"
+
+          Starfleet Command has intercepted a Romulan distress call from the disputed
+          border system of Epsilon Legato. A Bird-of-Prey has been forced to make an
+          unscheduled landing on a Demon-Class planet, making it unlikely that any
+          of the crew survived. While tragic, this could be Starfleet's only chance
+          to retrieve information from a Romulan vessel; information that could
+          prove vital to the defense of Earth and its colonies.
+
+
+          The *Endeavour* has been dispatched to investigate the wreckage and retrieve
+          as much information from its computer core as possible. We estimate that
+          at best a Romulan salvage and relief vessel is no less than 12 hours away,
+          giving us a safe window of opportunity to search the vessel and depart
+          without getting dragged into a firefight.
+  -
+    separate: True
+    Title: Major Beats
+    subtitle_heading: True
+    Subtitle: Arrival in Epsilon Legato
+    Text: >-
+      Even a standard orbit around a Demon-class planet can be hazardous to an
+      unprepared starship. Electromagnetic discharges can wreak havoc with various
+      systems, especially sensors, which could cause navigational errors that
+      destabilize the orbit of the vessel.
+
+
+      Further complicating things, the magnetosphere of the planet appears to be
+      rapidly rotating at about 2 Hz, like a magnetar, which renders shipborne
+      weapons useless in orbit around the planet as the interference causes
+      torpedoes to fail to track and energy weapons to rapidly dissipate.
+  -
+    subtitle_heading: True
+    Subtitle: The Romulan Vessel and Survivors
+    Text: >-
+      !!! quote "There's lifesigns!"
+
+          It looks like the vessel's central compartments, like engineering and
+          the bridge, have not been breached by the planet's atmosphere. Hold on,
+          I'm picking up Romulan lifesigns. Ten, maybe twelve. They're weak, but
+          they're alive!
+
+
+      The Romulan vessel, the *IRW Destrix*, crash landed in the middle of a boiling
+      corrosive lake on Epsilon Legato II. While the ship's hull is highly resistant
+      to most substances, the highly corrosive mixture has already begun eating
+      through the ship's hull. Based on long-range sensor telemetry, the mixture
+      could eat through a standard Starfleet exosuit in less than 15 minutes.
+
+
+      Short-range scans of the vessel should indicate that a portion of the Romulan
+      crew has survived, trapped within sealed chambers within the vessel. It is
+      not possible to beam out the Romulans. Unless the crew can somehow convince
+      highly skeptical Romulans to surrender and willingly board a shuttlepod,
+      the survivors will suffocate within hours.
+  -
+    subtitle_heading: True
+    Subtitle: Romulan Rescuers
+    Text: >-
+      A Romulan rescue vessel will arrive as predicted by Starfleet's estimates.
+      Their signal can be intercepted and decoded by the player's ship, but due
+      to the planet's interference, won't be received by the *Destrix*. The rescue
+      vessel's arrival marks the latest possible departure point for the crew,
+      as Starfleet is not interested in risking one of its top vessels over a
+      salvage dispute.
+  -
+    separate: True
+    Title: Minor Beats
+    subtitle_heading: True
+    Subtitle: Between a Rock and a Hard Place
+    Text: >-
+      Given the choice between a slow and painful death versus surrender to
+      Starfleet, the Romulans are at a loss for what to do if their compatriots don't
+      come to their rescue. Some may become desperate enough to agree to surrender,
+      despite the fact it would mean never seeing their homes and families again. It
+      could even lead to a mutiny onboard the wrecked ship.
+  -
+    subtitle_heading: True
+    Subtitle: A Moral Quandry
+    Text: >-
+      A Romulan relief vessel is underway, but the EM interference makes it
+      impossible for the subspace communications to reach the *Destrix*. The players'
+      ship however was able to receive and decode the transmission, and could pass
+      the message along to the Romulan survivors. Doing so however takes away the
+      single biggest bargaining chip in the player's arsenal: desperation. With
+      the knowledge that Romulan help is on the way, the *Destrix* survivors will
+      refuse to cooperate further.
+  -
+    separate: True
+    Title: Key NPCs
+    subtitle_heading: True
+    Subtitle: Subcommander Tevauna
+    Text: >-
+      The ranking Romulan survivor, Tevauna is the *Destrix*'s Executive Officer.
+      She is loyal to the Romulan State, and will oppose any attempts to cooperate
+      with the players, *unless* she can be convinced that the situation is hopeless
+      and her remaining duty must be to her crew.
+  -
+    subtitle_heading: True
+    Subtitle: Uhlan Chomon
+    Text: >-
+      A junior engineer's mate, Chomon lacks the hardliner stance of his superior
+      officers. He does not wish to die, and will gratefully accept any assistance
+      from the players, even at the risk of being made an example of by panicking
+      officers.
+  -
+    separate: True
+    Title: Conclusion
+    Text: >-
+      There are multiple ways the scenario can end.
+
+
+      It's possible that the players will fail to convince the Romulan crew to
+      surrender, and choose to kill the Romulans by breaching the hull. This
+      action will be detectable by the Romulan survey vessel, which will lead
+      to accusations of war crimes that will hurt UE politically, and will lead
+      to disciplinary action for the crew.
+
+
+      The players may instead convince the Romulans to surrender by withholding
+      information about the Romulan rescue vessel. They may choose to then either
+      take the Romulans home as prisoners-of-war, or leave the Romulans behind
+      in escape pods and shuttlepods to be rescued.
+
+
+      Alternatively, the players might be able to stay on the moral true-and-narrow,
+      and leave empty-handed but with clean consciences, maybe leaving supplies for
+      the stranded Romulan crew to have a better chance of survival until rescue
+      arrives. Could such a self-less action open the door to negotiations with
+      the Romulans?
+#  -
+#    separate: BOOL
+#    Subtitle: TEXT
+#    Title: TEXT
+#    Text: >-
+#      TEXT
+#    Diagram: |
+#      ```
+#      ```
+#    Table :
+#      "# - #" : TEXT
+#      Meta : 
+#        Columns :
+#          - COL1
+#          - COL2
+#        Rows :
+#          -
+#            - ROW1COL1
+#            - ROW2COL2
+#Links :
+#  - LINK
